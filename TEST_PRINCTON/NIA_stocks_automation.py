@@ -27,8 +27,10 @@ data = {
 proxies = {
 	"https" : "http://proxy-us.intel.com:911"
 }
-
-response = requests.get(API_URL, params=data,proxies=proxies) 
+try:
+    response = requests.get(API_URL, params=data,proxies=proxies)
+except Exception:
+    response = requests.get(API_URL, params=data)
 arr = response.text.split("{")
 
 '''for l in arr:
