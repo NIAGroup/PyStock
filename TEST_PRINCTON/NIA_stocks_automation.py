@@ -92,4 +92,6 @@ plt.xticks(rotation=70)
 ax = plt.gcf().axes[0] 
 ax.xaxis.set_major_formatter(formatter)
 
+plt.tight_layout()
+
 plt.show()
