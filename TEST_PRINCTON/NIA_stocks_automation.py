@@ -116,7 +116,8 @@ for s in d_A:
 	    share_array_A.append(float(stringer_b))
 	    print(stringer_a+"\t"+stringer_b)
 	    ws.cell(row,col,stringer_a).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
-	    ws.cell(row,col+1,stringer_b).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
+	    ws.cell(row,col+1,float(stringer_b)).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
+	    ws.cell(row,col+1).number_format = '$##0.00'
 	row+=1
 row = 2
 col = 3
@@ -129,7 +130,8 @@ for s in d_B:
 	    share_array_B.append(float(stringer_b))
 	    print(stringer_a+"\t"+stringer_b)
 	    ws.cell(row,col,stringer_a).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
-	    ws.cell(row,col+1,stringer_b).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
+	    ws.cell(row,col+1,float(stringer_b)).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
+	    ws.cell(row,col+1).number_format = '$##0.00'
 	row+=1
 wb.save("results.xlsx")
 year_array_A =  matplotlib.dates.datestr2num(year_array_A)
