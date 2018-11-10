@@ -19,7 +19,7 @@ def getArgs():
     parser.add_argument('-c')
     args = parser.parse_args()
     if args.s == None and args.c == None:
-    	s = "INTC:MSFT"
+    	s = "INTC:NVDA"
     elif args.s == None and args.c != None:
     	s = "INTC:"+args.c
     elif args.s != None and args.c == None:
@@ -111,10 +111,10 @@ col = 1
 for s in d_A:
 	if(row>1):
 	    stringer_a = str(s)
-	    stringer_b = str(d_A[s]["SMA"])
+	    stringer_b = round(float(str(d_A[s]["SMA"])),2)
 	    year_array_A.append(str(stringer_a))
 	    share_array_A.append(float(stringer_b))
-	    print(stringer_a+"\t"+stringer_b)
+	    print(stringer_a+"\t"+str(stringer_b))
 	    ws.cell(row,col,stringer_a).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
 	    ws.cell(row,col+1,float(stringer_b)).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
 	    ws.cell(row,col+1).number_format = '$##0.00'
@@ -125,10 +125,10 @@ col = 3
 for s in d_B:
 	if(row>1):
 	    stringer_a = str(s)
-	    stringer_b = str(d_B[s]["SMA"])
+	    stringer_b = round(float(d_B[s]["SMA"]),2)
 	    year_array_B.append(str(stringer_a))
 	    share_array_B.append(float(stringer_b))
-	    print(stringer_a+"\t"+stringer_b)
+	    print(stringer_a+"\t"+str(stringer_b))
 	    ws.cell(row,col,stringer_a).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
 	    ws.cell(row,col+1,float(stringer_b)).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
 	    ws.cell(row,col+1).number_format = '$##0.00'
@@ -137,6 +137,7 @@ wb.save("results.xlsx")
 year_array_A =  matplotlib.dates.datestr2num(year_array_A)
 year_array_B =  matplotlib.dates.datestr2num(year_array_B)
 formatter = dates.DateFormatter('%Y-%m-%d')
+
 for x in range(len(year_array_A)-1,-1,-1):
 	array_corrected_x_A.append(year_array_A[x])
 for x in range(len(share_array_A)-1,-1,-1):
@@ -161,13 +162,18 @@ plt.title("Share Value Trends for: "+stock_symbol_A+" vs "+stock_symbol_B)
 plt.grid()
 the_ticks_A = array_corrected_x_A
 the_ticks_B = array_corrected_x_B
-plt.xticks(the_ticks_A)
+if len(the_ticks_A) > len(the_ticks_B):
+	plt.xticks(the_ticks_A)
+else:
+	plt.xticks(the_ticks_B)
 plt.xticks(rotation=70)
 ax = plt.gcf().axes[0] 
 
 plt.legend((stock_symbol_A,stock_symbol_B))
 ax.xaxis.set_major_formatter(formatter)
-
+fmt = '${x:,.2f}'
+tick = matplotlib.ticker.StrMethodFormatter(fmt)
+ax.yaxis.set_major_formatter(tick)
 plt.tight_layout()
 
 plt.show()
