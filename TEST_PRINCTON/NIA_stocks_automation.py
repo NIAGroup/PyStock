@@ -133,6 +133,7 @@ for s in d_B:
 	    ws.cell(row,col+1,float(stringer_b)).alignment = Alignment(vertical="top", horizontal="center", wrap_text="True")
 	    ws.cell(row,col+1).number_format = '$##0.00'
 	row+=1
+wb.remove(wb.worksheets[0])
 wb.save("results.xlsx")
 year_array_A =  matplotlib.dates.datestr2num(year_array_A)
 year_array_B =  matplotlib.dates.datestr2num(year_array_B)
