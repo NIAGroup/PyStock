@@ -22,5 +22,11 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+        
+class Plot(models.Model):
+    image_placeholder = models.ImageField(upload_to=None,height_field=200,width_field=200,max_length=100)
+    
+    def __str__(self):
+        return "we got an image"
 
 # Create your models here.
