@@ -1,5 +1,9 @@
 {% if latest_question_list %}
-<button id="runScript_btn" type="button" style="height:100px;width:100px" action="chart"></button>
+<!--my test button -->
+<form action='actionUrl' method='GET'>
+<button id="runScript_btn" type="button" style="height:100px;width:100px" onclick="location.href={% url 'polls:testFxn' %}">'Test'</button>
+</form>
+{% csrf_token %}
 <h1>"Le Duh"</h1>
     <ul>
     {% for question in latest_question_list %}
@@ -13,3 +17,29 @@
 {% load static %}
 
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+<script>
+    $("#button_id").on('click', function () {
+      var username = $(this).val();
+      var active = <true> // or false, you have to set it
+      var active = <id> // you have to set it
+      $.ajax({
+        url: '/ajax/validate_username/',
+        data: {
+          'csrfmiddlewaretoken': $('input[name="csrfmiddlewaretoken"]').val(),
+          'active': active
+          'job_id': username
+        },
+        dataType: 'json',
+        success: function (data) {
+          if (data.success) {
+            alert("ajax call success.");
+            // here you update the HTML to change the active to innactive
+          }else{
+            alert("ajax call not success.");
+          }
+        }
+      });
+
+    });
+  </script>
