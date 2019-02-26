@@ -1,0 +1,3892 @@
+{
+    "Stock Values": [
+        {
+            "Value_0": [
+                {
+                    "Company A - Date": "1998-11-30"
+                },
+                {
+                    "Company A - Share Value": "80.31"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_1": [
+                {
+                    "Company A - Date": "1998-12-31"
+                },
+                {
+                    "Company A - Share Value": "82.64"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_2": [
+                {
+                    "Company A - Date": "1999-01-29"
+                },
+                {
+                    "Company A - Share Value": "85.65"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_3": [
+                {
+                    "Company A - Date": "1999-02-26"
+                },
+                {
+                    "Company A - Share Value": "91.97"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_4": [
+                {
+                    "Company A - Date": "1999-03-31"
+                },
+                {
+                    "Company A - Share Value": "95.76"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_5": [
+                {
+                    "Company A - Date": "1999-04-30"
+                },
+                {
+                    "Company A - Share Value": "100.84"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_6": [
+                {
+                    "Company A - Date": "1999-05-28"
+                },
+                {
+                    "Company A - Share Value": "99.49"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_7": [
+                {
+                    "Company A - Date": "1999-06-30"
+                },
+                {
+                    "Company A - Share Value": "96.5"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_8": [
+                {
+                    "Company A - Date": "1999-07-30"
+                },
+                {
+                    "Company A - Share Value": "95.39"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_9": [
+                {
+                    "Company A - Date": "1999-08-31"
+                },
+                {
+                    "Company A - Share Value": "93.95"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_10": [
+                {
+                    "Company A - Date": "1999-09-30"
+                },
+                {
+                    "Company A - Share Value": "93.34"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_11": [
+                {
+                    "Company A - Date": "1999-10-29"
+                },
+                {
+                    "Company A - Share Value": "90.19"
+                },
+                {
+                    "Company B - Date": ""
+                },
+                {
+                    "Company B - Share Value": ""
+                }
+            ]
+        },
+        {
+            "Value_12": [
+                {
+                    "Company A - Date": "1999-11-30"
+                },
+                {
+                    "Company A - Share Value": "85.96"
+                },
+                {
+                    "Company B - Date": "1999-11-30"
+                },
+                {
+                    "Company B - Share Value": "20.61"
+                }
+            ]
+        },
+        {
+            "Value_13": [
+                {
+                    "Company A - Date": "1999-12-31"
+                },
+                {
+                    "Company A - Share Value": "79.5"
+                },
+                {
+                    "Company B - Date": "1999-12-31"
+                },
+                {
+                    "Company B - Share Value": "22.18"
+                }
+            ]
+        },
+        {
+            "Value_14": [
+                {
+                    "Company A - Date": "2000-01-31"
+                },
+                {
+                    "Company A - Share Value": "75.94"
+                },
+                {
+                    "Company B - Date": "2000-01-31"
+                },
+                {
+                    "Company B - Share Value": "24.65"
+                }
+            ]
+        },
+        {
+            "Value_15": [
+                {
+                    "Company A - Date": "2000-02-29"
+                },
+                {
+                    "Company A - Share Value": "73.79"
+                },
+                {
+                    "Company B - Date": "2000-02-29"
+                },
+                {
+                    "Company B - Share Value": "26.25"
+                }
+            ]
+        },
+        {
+            "Value_16": [
+                {
+                    "Company A - Date": "2000-03-31"
+                },
+                {
+                    "Company A - Share Value": "78.96"
+                },
+                {
+                    "Company B - Date": "2000-03-31"
+                },
+                {
+                    "Company B - Share Value": "30.81"
+                }
+            ]
+        },
+        {
+            "Value_17": [
+                {
+                    "Company A - Date": "2000-04-28"
+                },
+                {
+                    "Company A - Share Value": "86.72"
+                },
+                {
+                    "Company B - Date": "2000-04-28"
+                },
+                {
+                    "Company B - Share Value": "37.48"
+                }
+            ]
+        },
+        {
+            "Value_18": [
+                {
+                    "Company A - Date": "2000-05-31"
+                },
+                {
+                    "Company A - Share Value": "93.54"
+                },
+                {
+                    "Company B - Date": "2000-05-31"
+                },
+                {
+                    "Company B - Share Value": "44.82"
+                }
+            ]
+        },
+        {
+            "Value_19": [
+                {
+                    "Company A - Date": "2000-06-30"
+                },
+                {
+                    "Company A - Share Value": "99.17"
+                },
+                {
+                    "Company B - Date": "2000-06-30"
+                },
+                {
+                    "Company B - Share Value": "54.55"
+                }
+            ]
+        },
+        {
+            "Value_20": [
+                {
+                    "Company A - Date": "2000-07-31"
+                },
+                {
+                    "Company A - Share Value": "104.21"
+                },
+                {
+                    "Company B - Date": "2000-07-31"
+                },
+                {
+                    "Company B - Share Value": "58.14"
+                }
+            ]
+        },
+        {
+            "Value_21": [
+                {
+                    "Company A - Date": "2000-08-31"
+                },
+                {
+                    "Company A - Share Value": "103.49"
+                },
+                {
+                    "Company B - Date": "2000-08-31"
+                },
+                {
+                    "Company B - Share Value": "62.25"
+                }
+            ]
+        },
+        {
+            "Value_22": [
+                {
+                    "Company A - Date": "2000-09-29"
+                },
+                {
+                    "Company A - Share Value": "103.29"
+                },
+                {
+                    "Company B - Date": "2000-09-29"
+                },
+                {
+                    "Company B - Share Value": "68.17"
+                }
+            ]
+        },
+        {
+            "Value_23": [
+                {
+                    "Company A - Date": "2000-10-31"
+                },
+                {
+                    "Company A - Share Value": "99.98"
+                },
+                {
+                    "Company B - Date": "2000-10-31"
+                },
+                {
+                    "Company B - Share Value": "73.01"
+                }
+            ]
+        },
+        {
+            "Value_24": [
+                {
+                    "Company A - Date": "2000-11-30"
+                },
+                {
+                    "Company A - Share Value": "96.08"
+                },
+                {
+                    "Company B - Date": "2000-11-30"
+                },
+                {
+                    "Company B - Share Value": "74.35"
+                }
+            ]
+        },
+        {
+            "Value_25": [
+                {
+                    "Company A - Date": "2000-12-29"
+                },
+                {
+                    "Company A - Share Value": "90.09"
+                },
+                {
+                    "Company B - Date": "2000-12-29"
+                },
+                {
+                    "Company B - Share Value": "74.94"
+                }
+            ]
+        },
+        {
+            "Value_26": [
+                {
+                    "Company A - Date": "2001-01-31"
+                },
+                {
+                    "Company A - Share Value": "81.87"
+                },
+                {
+                    "Company B - Date": "2001-01-31"
+                },
+                {
+                    "Company B - Share Value": "71.83"
+                }
+            ]
+        },
+        {
+            "Value_27": [
+                {
+                    "Company A - Date": "2001-02-28"
+                },
+                {
+                    "Company A - Share Value": "72.44"
+                },
+                {
+                    "Company B - Date": "2001-02-28"
+                },
+                {
+                    "Company B - Share Value": "68.63"
+                }
+            ]
+        },
+        {
+            "Value_28": [
+                {
+                    "Company A - Date": "2001-03-30"
+                },
+                {
+                    "Company A - Share Value": "62.47"
+                },
+                {
+                    "Company B - Date": "2001-03-30"
+                },
+                {
+                    "Company B - Share Value": "63.79"
+                }
+            ]
+        },
+        {
+            "Value_29": [
+                {
+                    "Company A - Date": "2001-04-30"
+                },
+                {
+                    "Company A - Share Value": "52.46"
+                },
+                {
+                    "Company B - Date": "2001-04-30"
+                },
+                {
+                    "Company B - Share Value": "58.51"
+                }
+            ]
+        },
+        {
+            "Value_30": [
+                {
+                    "Company A - Date": "2001-05-31"
+                },
+                {
+                    "Company A - Share Value": "42.13"
+                },
+                {
+                    "Company B - Date": "2001-05-31"
+                },
+                {
+                    "Company B - Share Value": "60.47"
+                }
+            ]
+        },
+        {
+            "Value_31": [
+                {
+                    "Company A - Date": "2001-06-29"
+                },
+                {
+                    "Company A - Share Value": "38.15"
+                },
+                {
+                    "Company B - Date": "2001-06-29"
+                },
+                {
+                    "Company B - Share Value": "63.09"
+                }
+            ]
+        },
+        {
+            "Value_32": [
+                {
+                    "Company A - Date": "2001-07-31"
+                },
+                {
+                    "Company A - Share Value": "33.54"
+                },
+                {
+                    "Company B - Date": "2001-07-31"
+                },
+                {
+                    "Company B - Share Value": "63.9"
+                }
+            ]
+        },
+        {
+            "Value_33": [
+                {
+                    "Company A - Date": "2001-08-31"
+                },
+                {
+                    "Company A - Share Value": "32.31"
+                },
+                {
+                    "Company B - Date": "2001-08-31"
+                },
+                {
+                    "Company B - Share Value": "63.85"
+                }
+            ]
+        },
+        {
+            "Value_34": [
+                {
+                    "Company A - Date": "2001-09-28"
+                },
+                {
+                    "Company A - Share Value": "30.64"
+                },
+                {
+                    "Company B - Date": "2001-09-28"
+                },
+                {
+                    "Company B - Share Value": "66.24"
+                }
+            ]
+        },
+        {
+            "Value_35": [
+                {
+                    "Company A - Date": "2001-10-31"
+                },
+                {
+                    "Company A - Share Value": "28.81"
+                },
+                {
+                    "Company B - Date": "2001-10-31"
+                },
+                {
+                    "Company B - Share Value": "64.68"
+                }
+            ]
+        },
+        {
+            "Value_36": [
+                {
+                    "Company A - Date": "2001-11-30"
+                },
+                {
+                    "Company A - Share Value": "28.19"
+                },
+                {
+                    "Company B - Date": "2001-11-30"
+                },
+                {
+                    "Company B - Share Value": "65.72"
+                }
+            ]
+        },
+        {
+            "Value_37": [
+                {
+                    "Company A - Date": "2001-12-31"
+                },
+                {
+                    "Company A - Share Value": "27.77"
+                },
+                {
+                    "Company B - Date": "2001-12-31"
+                },
+                {
+                    "Company B - Share Value": "65.97"
+                }
+            ]
+        },
+        {
+            "Value_38": [
+                {
+                    "Company A - Date": "2002-01-31"
+                },
+                {
+                    "Company A - Share Value": "28.14"
+                },
+                {
+                    "Company B - Date": "2002-01-31"
+                },
+                {
+                    "Company B - Share Value": "68.28"
+                }
+            ]
+        },
+        {
+            "Value_39": [
+                {
+                    "Company A - Date": "2002-02-28"
+                },
+                {
+                    "Company A - Share Value": "29.04"
+                },
+                {
+                    "Company B - Date": "2002-02-28"
+                },
+                {
+                    "Company B - Share Value": "68.44"
+                }
+            ]
+        },
+        {
+            "Value_40": [
+                {
+                    "Company A - Date": "2002-03-28"
+                },
+                {
+                    "Company A - Share Value": "28.87"
+                },
+                {
+                    "Company B - Date": "2002-03-28"
+                },
+                {
+                    "Company B - Share Value": "65.18"
+                }
+            ]
+        },
+        {
+            "Value_41": [
+                {
+                    "Company A - Date": "2002-04-30"
+                },
+                {
+                    "Company A - Share Value": "29.29"
+                },
+                {
+                    "Company B - Date": "2002-04-30"
+                },
+                {
+                    "Company B - Share Value": "60.75"
+                }
+            ]
+        },
+        {
+            "Value_42": [
+                {
+                    "Company A - Date": "2002-05-31"
+                },
+                {
+                    "Company A - Share Value": "29.19"
+                },
+                {
+                    "Company B - Date": "2002-05-31"
+                },
+                {
+                    "Company B - Share Value": "55.27"
+                }
+            ]
+        },
+        {
+            "Value_43": [
+                {
+                    "Company A - Date": "2002-06-28"
+                },
+                {
+                    "Company A - Share Value": "28.87"
+                },
+                {
+                    "Company B - Date": "2002-06-28"
+                },
+                {
+                    "Company B - Share Value": "50.28"
+                }
+            ]
+        },
+        {
+            "Value_44": [
+                {
+                    "Company A - Date": "2002-07-31"
+                },
+                {
+                    "Company A - Share Value": "27.95"
+                },
+                {
+                    "Company B - Date": "2002-07-31"
+                },
+                {
+                    "Company B - Share Value": "43.55"
+                }
+            ]
+        },
+        {
+            "Value_45": [
+                {
+                    "Company A - Date": "2002-08-30"
+                },
+                {
+                    "Company A - Share Value": "27.8"
+                },
+                {
+                    "Company B - Date": "2002-08-30"
+                },
+                {
+                    "Company B - Share Value": "41.92"
+                }
+            ]
+        },
+        {
+            "Value_46": [
+                {
+                    "Company A - Date": "2002-09-30"
+                },
+                {
+                    "Company A - Share Value": "26.99"
+                },
+                {
+                    "Company B - Date": "2002-09-30"
+                },
+                {
+                    "Company B - Share Value": "38.54"
+                }
+            ]
+        },
+        {
+            "Value_47": [
+                {
+                    "Company A - Date": "2002-10-31"
+                },
+                {
+                    "Company A - Share Value": "25.11"
+                },
+                {
+                    "Company B - Date": "2002-10-31"
+                },
+                {
+                    "Company B - Share Value": "33.98"
+                }
+            ]
+        },
+        {
+            "Value_48": [
+                {
+                    "Company A - Date": "2002-11-29"
+                },
+                {
+                    "Company A - Share Value": "23.63"
+                },
+                {
+                    "Company B - Date": "2002-11-29"
+                },
+                {
+                    "Company B - Share Value": "28.44"
+                }
+            ]
+        },
+        {
+            "Value_49": [
+                {
+                    "Company A - Date": "2002-12-31"
+                },
+                {
+                    "Company A - Share Value": "22.31"
+                },
+                {
+                    "Company B - Date": "2002-12-31"
+                },
+                {
+                    "Company B - Share Value": "23.61"
+                }
+            ]
+        },
+        {
+            "Value_50": [
+                {
+                    "Company A - Date": "2003-01-31"
+                },
+                {
+                    "Company A - Share Value": "21"
+                },
+                {
+                    "Company B - Date": "2003-01-31"
+                },
+                {
+                    "Company B - Share Value": "19.71"
+                }
+            ]
+        },
+        {
+            "Value_51": [
+                {
+                    "Company A - Date": "2003-02-28"
+                },
+                {
+                    "Company A - Share Value": "19.42"
+                },
+                {
+                    "Company B - Date": "2003-02-28"
+                },
+                {
+                    "Company B - Share Value": "16.55"
+                }
+            ]
+        },
+        {
+            "Value_52": [
+                {
+                    "Company A - Date": "2003-03-31"
+                },
+                {
+                    "Company A - Share Value": "18.28"
+                },
+                {
+                    "Company B - Date": "2003-03-31"
+                },
+                {
+                    "Company B - Share Value": "14.41"
+                }
+            ]
+        },
+        {
+            "Value_53": [
+                {
+                    "Company A - Date": "2003-04-30"
+                },
+                {
+                    "Company A - Share Value": "17.18"
+                },
+                {
+                    "Company B - Date": "2003-04-30"
+                },
+                {
+                    "Company B - Share Value": "12.46"
+                }
+            ]
+        },
+        {
+            "Value_54": [
+                {
+                    "Company A - Date": "2003-05-30"
+                },
+                {
+                    "Company A - Share Value": "17.18"
+                },
+                {
+                    "Company B - Date": "2003-05-30"
+                },
+                {
+                    "Company B - Share Value": "12.17"
+                }
+            ]
+        },
+        {
+            "Value_55": [
+                {
+                    "Company A - Date": "2003-06-30"
+                },
+                {
+                    "Company A - Share Value": "17.41"
+                },
+                {
+                    "Company B - Date": "2003-06-30"
+                },
+                {
+                    "Company B - Share Value": "13.74"
+                }
+            ]
+        },
+        {
+            "Value_56": [
+                {
+                    "Company A - Date": "2003-07-31"
+                },
+                {
+                    "Company A - Share Value": "17.84"
+                },
+                {
+                    "Company B - Date": "2003-07-31"
+                },
+                {
+                    "Company B - Share Value": "15.04"
+                }
+            ]
+        },
+        {
+            "Value_57": [
+                {
+                    "Company A - Date": "2003-08-29"
+                },
+                {
+                    "Company A - Share Value": "18.92"
+                },
+                {
+                    "Company B - Date": "2003-08-29"
+                },
+                {
+                    "Company B - Share Value": "16.09"
+                }
+            ]
+        },
+        {
+            "Value_58": [
+                {
+                    "Company A - Date": "2003-09-30"
+                },
+                {
+                    "Company A - Share Value": "20.09"
+                },
+                {
+                    "Company B - Date": "2003-09-30"
+                },
+                {
+                    "Company B - Share Value": "16.76"
+                }
+            ]
+        },
+        {
+            "Value_59": [
+                {
+                    "Company A - Date": "2003-10-31"
+                },
+                {
+                    "Company A - Share Value": "20.68"
+                },
+                {
+                    "Company B - Date": "2003-10-31"
+                },
+                {
+                    "Company B - Share Value": "16.56"
+                }
+            ]
+        },
+        {
+            "Value_60": [
+                {
+                    "Company A - Date": "2003-11-28"
+                },
+                {
+                    "Company A - Share Value": "22.41"
+                },
+                {
+                    "Company B - Date": "2003-11-28"
+                },
+                {
+                    "Company B - Share Value": "17.12"
+                }
+            ]
+        },
+        {
+            "Value_61": [
+                {
+                    "Company A - Date": "2003-12-31"
+                },
+                {
+                    "Company A - Share Value": "24.23"
+                },
+                {
+                    "Company B - Date": "2003-12-31"
+                },
+                {
+                    "Company B - Share Value": "18.23"
+                }
+            ]
+        },
+        {
+            "Value_62": [
+                {
+                    "Company A - Date": "2004-01-30"
+                },
+                {
+                    "Company A - Share Value": "25.75"
+                },
+                {
+                    "Company B - Date": "2004-01-30"
+                },
+                {
+                    "Company B - Share Value": "19.31"
+                }
+            ]
+        },
+        {
+            "Value_63": [
+                {
+                    "Company A - Date": "2004-02-27"
+                },
+                {
+                    "Company A - Share Value": "27.2"
+                },
+                {
+                    "Company B - Date": "2004-02-27"
+                },
+                {
+                    "Company B - Share Value": "20.24"
+                }
+            ]
+        },
+        {
+            "Value_64": [
+                {
+                    "Company A - Date": "2004-03-31"
+                },
+                {
+                    "Company A - Share Value": "28.26"
+                },
+                {
+                    "Company B - Date": "2004-03-31"
+                },
+                {
+                    "Company B - Share Value": "21.03"
+                }
+            ]
+        },
+        {
+            "Value_65": [
+                {
+                    "Company A - Date": "2004-04-30"
+                },
+                {
+                    "Company A - Share Value": "28.9"
+                },
+                {
+                    "Company B - Date": "2004-04-30"
+                },
+                {
+                    "Company B - Share Value": "21.02"
+                }
+            ]
+        },
+        {
+            "Value_66": [
+                {
+                    "Company A - Date": "2004-05-28"
+                },
+                {
+                    "Company A - Share Value": "29.42"
+                },
+                {
+                    "Company B - Date": "2004-05-28"
+                },
+                {
+                    "Company B - Share Value": "20.83"
+                }
+            ]
+        },
+        {
+            "Value_67": [
+                {
+                    "Company A - Date": "2004-06-30"
+                },
+                {
+                    "Company A - Share Value": "29.78"
+                },
+                {
+                    "Company B - Date": "2004-06-30"
+                },
+                {
+                    "Company B - Share Value": "21.23"
+                }
+            ]
+        },
+        {
+            "Value_68": [
+                {
+                    "Company A - Date": "2004-07-30"
+                },
+                {
+                    "Company A - Share Value": "29.64"
+                },
+                {
+                    "Company B - Date": "2004-07-30"
+                },
+                {
+                    "Company B - Share Value": "21.45"
+                }
+            ]
+        },
+        {
+            "Value_69": [
+                {
+                    "Company A - Date": "2004-08-31"
+                },
+                {
+                    "Company A - Share Value": "29.26"
+                },
+                {
+                    "Company B - Date": "2004-08-31"
+                },
+                {
+                    "Company B - Share Value": "21.39"
+                }
+            ]
+        },
+        {
+            "Value_70": [
+                {
+                    "Company A - Date": "2004-09-30"
+                },
+                {
+                    "Company A - Share Value": "28.04"
+                },
+                {
+                    "Company B - Date": "2004-09-30"
+                },
+                {
+                    "Company B - Share Value": "20.86"
+                }
+            ]
+        },
+        {
+            "Value_71": [
+                {
+                    "Company A - Date": "2004-10-29"
+                },
+                {
+                    "Company A - Share Value": "26.69"
+                },
+                {
+                    "Company B - Date": "2004-10-29"
+                },
+                {
+                    "Company B - Share Value": "20.18"
+                }
+            ]
+        },
+        {
+            "Value_72": [
+                {
+                    "Company A - Date": "2004-11-30"
+                },
+                {
+                    "Company A - Share Value": "25.67"
+                },
+                {
+                    "Company B - Date": "2004-11-30"
+                },
+                {
+                    "Company B - Share Value": "19.28"
+                }
+            ]
+        },
+        {
+            "Value_73": [
+                {
+                    "Company A - Date": "2004-12-31"
+                },
+                {
+                    "Company A - Share Value": "24.84"
+                },
+                {
+                    "Company B - Date": "2004-12-31"
+                },
+                {
+                    "Company B - Share Value": "18.97"
+                }
+            ]
+        },
+        {
+            "Value_74": [
+                {
+                    "Company A - Date": "2005-01-31"
+                },
+                {
+                    "Company A - Share Value": "24.3"
+                },
+                {
+                    "Company B - Date": "2005-01-31"
+                },
+                {
+                    "Company B - Share Value": "19.19"
+                }
+            ]
+        },
+        {
+            "Value_75": [
+                {
+                    "Company A - Date": "2005-02-28"
+                },
+                {
+                    "Company A - Share Value": "23.81"
+                },
+                {
+                    "Company B - Date": "2005-02-28"
+                },
+                {
+                    "Company B - Share Value": "18.81"
+                }
+            ]
+        },
+        {
+            "Value_76": [
+                {
+                    "Company A - Date": "2005-03-31"
+                },
+                {
+                    "Company A - Share Value": "23.64"
+                },
+                {
+                    "Company B - Date": "2005-03-31"
+                },
+                {
+                    "Company B - Share Value": "19.65"
+                }
+            ]
+        },
+        {
+            "Value_77": [
+                {
+                    "Company A - Date": "2005-04-29"
+                },
+                {
+                    "Company A - Share Value": "23.14"
+                },
+                {
+                    "Company B - Date": "2005-04-29"
+                },
+                {
+                    "Company B - Share Value": "19.74"
+                }
+            ]
+        },
+        {
+            "Value_78": [
+                {
+                    "Company A - Date": "2005-05-31"
+                },
+                {
+                    "Company A - Share Value": "22.75"
+                },
+                {
+                    "Company B - Date": "2005-05-31"
+                },
+                {
+                    "Company B - Share Value": "19.89"
+                }
+            ]
+        },
+        {
+            "Value_79": [
+                {
+                    "Company A - Date": "2005-06-30"
+                },
+                {
+                    "Company A - Share Value": "23.02"
+                },
+                {
+                    "Company B - Date": "2005-06-30"
+                },
+                {
+                    "Company B - Share Value": "21.04"
+                }
+            ]
+        },
+        {
+            "Value_80": [
+                {
+                    "Company A - Date": "2005-07-29"
+                },
+                {
+                    "Company A - Share Value": "23.53"
+                },
+                {
+                    "Company B - Date": "2005-07-29"
+                },
+                {
+                    "Company B - Share Value": "22.47"
+                }
+            ]
+        },
+        {
+            "Value_81": [
+                {
+                    "Company A - Date": "2005-08-31"
+                },
+                {
+                    "Company A - Share Value": "24.23"
+                },
+                {
+                    "Company B - Date": "2005-08-31"
+                },
+                {
+                    "Company B - Share Value": "23.73"
+                }
+            ]
+        },
+        {
+            "Value_82": [
+                {
+                    "Company A - Date": "2005-09-30"
+                },
+                {
+                    "Company A - Share Value": "24.57"
+                },
+                {
+                    "Company B - Date": "2005-09-30"
+                },
+                {
+                    "Company B - Share Value": "25.33"
+                }
+            ]
+        },
+        {
+            "Value_83": [
+                {
+                    "Company A - Date": "2005-10-31"
+                },
+                {
+                    "Company A - Share Value": "24.79"
+                },
+                {
+                    "Company B - Date": "2005-10-31"
+                },
+                {
+                    "Company B - Share Value": "26.85"
+                }
+            ]
+        },
+        {
+            "Value_84": [
+                {
+                    "Company A - Date": "2005-11-30"
+                },
+                {
+                    "Company A - Share Value": "24.75"
+                },
+                {
+                    "Company B - Date": "2005-11-30"
+                },
+                {
+                    "Company B - Share Value": "27.74"
+                }
+            ]
+        },
+        {
+            "Value_85": [
+                {
+                    "Company A - Date": "2005-12-30"
+                },
+                {
+                    "Company A - Share Value": "25.19"
+                },
+                {
+                    "Company B - Date": "2005-12-30"
+                },
+                {
+                    "Company B - Share Value": "29.09"
+                }
+            ]
+        },
+        {
+            "Value_86": [
+                {
+                    "Company A - Date": "2006-01-31"
+                },
+                {
+                    "Company A - Share Value": "25.27"
+                },
+                {
+                    "Company B - Date": "2006-01-31"
+                },
+                {
+                    "Company B - Share Value": "29.86"
+                }
+            ]
+        },
+        {
+            "Value_87": [
+                {
+                    "Company A - Date": "2006-02-28"
+                },
+                {
+                    "Company A - Share Value": "25.07"
+                },
+                {
+                    "Company B - Date": "2006-02-28"
+                },
+                {
+                    "Company B - Share Value": "31.87"
+                }
+            ]
+        },
+        {
+            "Value_88": [
+                {
+                    "Company A - Date": "2006-03-31"
+                },
+                {
+                    "Company A - Share Value": "24.79"
+                },
+                {
+                    "Company B - Date": "2006-03-31"
+                },
+                {
+                    "Company B - Share Value": "34.36"
+                }
+            ]
+        },
+        {
+            "Value_89": [
+                {
+                    "Company A - Date": "2006-04-28"
+                },
+                {
+                    "Company A - Share Value": "24.07"
+                },
+                {
+                    "Company B - Date": "2006-04-28"
+                },
+                {
+                    "Company B - Share Value": "37.44"
+                }
+            ]
+        },
+        {
+            "Value_90": [
+                {
+                    "Company A - Date": "2006-05-31"
+                },
+                {
+                    "Company A - Share Value": "23.45"
+                },
+                {
+                    "Company B - Date": "2006-05-31"
+                },
+                {
+                    "Company B - Share Value": "37.73"
+                }
+            ]
+        },
+        {
+            "Value_91": [
+                {
+                    "Company A - Date": "2006-06-30"
+                },
+                {
+                    "Company A - Share Value": "22.53"
+                },
+                {
+                    "Company B - Date": "2006-06-30"
+                },
+                {
+                    "Company B - Share Value": "37.33"
+                }
+            ]
+        },
+        {
+            "Value_92": [
+                {
+                    "Company A - Date": "2006-07-31"
+                },
+                {
+                    "Company A - Share Value": "21.9"
+                },
+                {
+                    "Company B - Date": "2006-07-31"
+                },
+                {
+                    "Company B - Share Value": "36.45"
+                }
+            ]
+        },
+        {
+            "Value_93": [
+                {
+                    "Company A - Date": "2006-08-31"
+                },
+                {
+                    "Company A - Share Value": "21.22"
+                },
+                {
+                    "Company B - Date": "2006-08-31"
+                },
+                {
+                    "Company B - Share Value": "35.19"
+                }
+            ]
+        },
+        {
+            "Value_94": [
+                {
+                    "Company A - Date": "2006-09-29"
+                },
+                {
+                    "Company A - Share Value": "20.89"
+                },
+                {
+                    "Company B - Date": "2006-09-29"
+                },
+                {
+                    "Company B - Share Value": "34.73"
+                }
+            ]
+        },
+        {
+            "Value_95": [
+                {
+                    "Company A - Date": "2006-10-31"
+                },
+                {
+                    "Company A - Share Value": "20.25"
+                },
+                {
+                    "Company B - Date": "2006-10-31"
+                },
+                {
+                    "Company B - Share Value": "34.03"
+                }
+            ]
+        },
+        {
+            "Value_96": [
+                {
+                    "Company A - Date": "2006-11-30"
+                },
+                {
+                    "Company A - Share Value": "19.87"
+                },
+                {
+                    "Company B - Date": "2006-11-30"
+                },
+                {
+                    "Company B - Share Value": "33.79"
+                }
+            ]
+        },
+        {
+            "Value_97": [
+                {
+                    "Company A - Date": "2006-12-29"
+                },
+                {
+                    "Company A - Share Value": "19.88"
+                },
+                {
+                    "Company B - Date": "2006-12-29"
+                },
+                {
+                    "Company B - Share Value": "33.03"
+                }
+            ]
+        },
+        {
+            "Value_98": [
+                {
+                    "Company A - Date": "2007-01-31"
+                },
+                {
+                    "Company A - Share Value": "19.85"
+                },
+                {
+                    "Company B - Date": "2007-01-31"
+                },
+                {
+                    "Company B - Share Value": "32.03"
+                }
+            ]
+        },
+        {
+            "Value_99": [
+                {
+                    "Company A - Date": "2007-02-28"
+                },
+                {
+                    "Company A - Share Value": "19.98"
+                },
+                {
+                    "Company B - Date": "2007-02-28"
+                },
+                {
+                    "Company B - Share Value": "29.29"
+                }
+            ]
+        },
+        {
+            "Value_100": [
+                {
+                    "Company A - Date": "2007-03-30"
+                },
+                {
+                    "Company A - Share Value": "19.93"
+                },
+                {
+                    "Company B - Date": "2007-03-30"
+                },
+                {
+                    "Company B - Share Value": "29.38"
+                }
+            ]
+        },
+        {
+            "Value_101": [
+                {
+                    "Company A - Date": "2007-04-30"
+                },
+                {
+                    "Company A - Share Value": "20.04"
+                },
+                {
+                    "Company B - Date": "2007-04-30"
+                },
+                {
+                    "Company B - Share Value": "29.92"
+                }
+            ]
+        },
+        {
+            "Value_102": [
+                {
+                    "Company A - Date": "2007-05-31"
+                },
+                {
+                    "Company A - Share Value": "20.27"
+                },
+                {
+                    "Company B - Date": "2007-05-31"
+                },
+                {
+                    "Company B - Share Value": "31.09"
+                }
+            ]
+        },
+        {
+            "Value_103": [
+                {
+                    "Company A - Date": "2007-06-29"
+                },
+                {
+                    "Company A - Share Value": "20.71"
+                },
+                {
+                    "Company B - Date": "2007-06-29"
+                },
+                {
+                    "Company B - Share Value": "32.41"
+                }
+            ]
+        },
+        {
+            "Value_104": [
+                {
+                    "Company A - Date": "2007-07-31"
+                },
+                {
+                    "Company A - Share Value": "21.11"
+                },
+                {
+                    "Company B - Date": "2007-07-31"
+                },
+                {
+                    "Company B - Share Value": "33.73"
+                }
+            ]
+        },
+        {
+            "Value_105": [
+                {
+                    "Company A - Date": "2007-08-31"
+                },
+                {
+                    "Company A - Share Value": "21.41"
+                },
+                {
+                    "Company B - Date": "2007-08-31"
+                },
+                {
+                    "Company B - Share Value": "35.3"
+                }
+            ]
+        },
+        {
+            "Value_106": [
+                {
+                    "Company A - Date": "2007-09-28"
+                },
+                {
+                    "Company A - Share Value": "21.86"
+                },
+                {
+                    "Company B - Date": "2007-09-28"
+                },
+                {
+                    "Company B - Share Value": "37"
+                }
+            ]
+        },
+        {
+            "Value_107": [
+                {
+                    "Company A - Date": "2007-10-31"
+                },
+                {
+                    "Company A - Share Value": "22.34"
+                },
+                {
+                    "Company B - Date": "2007-10-31"
+                },
+                {
+                    "Company B - Share Value": "37"
+                }
+            ]
+        },
+        {
+            "Value_108": [
+                {
+                    "Company A - Date": "2007-11-30"
+                },
+                {
+                    "Company A - Share Value": "22.96"
+                },
+                {
+                    "Company B - Date": "2007-11-30"
+                },
+                {
+                    "Company B - Share Value": "36.78"
+                }
+            ]
+        },
+        {
+            "Value_109": [
+                {
+                    "Company A - Date": "2007-12-31"
+                },
+                {
+                    "Company A - Share Value": "23.46"
+                },
+                {
+                    "Company B - Date": "2007-12-31"
+                },
+                {
+                    "Company B - Share Value": "36.94"
+                }
+            ]
+        },
+        {
+            "Value_110": [
+                {
+                    "Company A - Date": "2008-01-31"
+                },
+                {
+                    "Company A - Share Value": "24.14"
+                },
+                {
+                    "Company B - Date": "2008-01-31"
+                },
+                {
+                    "Company B - Share Value": "37.32"
+                }
+            ]
+        },
+        {
+            "Value_111": [
+                {
+                    "Company A - Date": "2008-02-29"
+                },
+                {
+                    "Company A - Share Value": "24.37"
+                },
+                {
+                    "Company B - Date": "2008-02-29"
+                },
+                {
+                    "Company B - Share Value": "36.91"
+                }
+            ]
+        },
+        {
+            "Value_112": [
+                {
+                    "Company A - Date": "2008-03-31"
+                },
+                {
+                    "Company A - Share Value": "24.22"
+                },
+                {
+                    "Company B - Date": "2008-03-31"
+                },
+                {
+                    "Company B - Share Value": "35.69"
+                }
+            ]
+        },
+        {
+            "Value_113": [
+                {
+                    "Company A - Date": "2008-04-30"
+                },
+                {
+                    "Company A - Share Value": "24.15"
+                },
+                {
+                    "Company B - Date": "2008-04-30"
+                },
+                {
+                    "Company B - Share Value": "34.23"
+                }
+            ]
+        },
+        {
+            "Value_114": [
+                {
+                    "Company A - Date": "2008-05-30"
+                },
+                {
+                    "Company A - Share Value": "24"
+                },
+                {
+                    "Company B - Date": "2008-05-30"
+                },
+                {
+                    "Company B - Share Value": "32.12"
+                }
+            ]
+        },
+        {
+            "Value_115": [
+                {
+                    "Company A - Date": "2008-06-30"
+                },
+                {
+                    "Company A - Share Value": "23.95"
+                },
+                {
+                    "Company B - Date": "2008-06-30"
+                },
+                {
+                    "Company B - Share Value": "30.08"
+                }
+            ]
+        },
+        {
+            "Value_116": [
+                {
+                    "Company A - Date": "2008-07-31"
+                },
+                {
+                    "Company A - Share Value": "23.49"
+                },
+                {
+                    "Company B - Date": "2008-07-31"
+                },
+                {
+                    "Company B - Share Value": "26.79"
+                }
+            ]
+        },
+        {
+            "Value_117": [
+                {
+                    "Company A - Date": "2008-08-29"
+                },
+                {
+                    "Company A - Share Value": "23.13"
+                },
+                {
+                    "Company B - Date": "2008-08-29"
+                },
+                {
+                    "Company B - Share Value": "24.24"
+                }
+            ]
+        },
+        {
+            "Value_118": [
+                {
+                    "Company A - Date": "2008-09-30"
+                },
+                {
+                    "Company A - Share Value": "22.79"
+                },
+                {
+                    "Company B - Date": "2008-09-30"
+                },
+                {
+                    "Company B - Share Value": "22.04"
+                }
+            ]
+        },
+        {
+            "Value_119": [
+                {
+                    "Company A - Date": "2008-10-31"
+                },
+                {
+                    "Company A - Share Value": "22.04"
+                },
+                {
+                    "Company B - Date": "2008-10-31"
+                },
+                {
+                    "Company B - Share Value": "19.9"
+                }
+            ]
+        },
+        {
+            "Value_120": [
+                {
+                    "Company A - Date": "2008-11-28"
+                },
+                {
+                    "Company A - Share Value": "21.02"
+                },
+                {
+                    "Company B - Date": "2008-11-28"
+                },
+                {
+                    "Company B - Share Value": "17.38"
+                }
+            ]
+        },
+        {
+            "Value_121": [
+                {
+                    "Company A - Date": "2008-12-31"
+                },
+                {
+                    "Company A - Share Value": "20.23"
+                },
+                {
+                    "Company B - Date": "2008-12-31"
+                },
+                {
+                    "Company B - Share Value": "15.64"
+                }
+            ]
+        },
+        {
+            "Value_122": [
+                {
+                    "Company A - Date": "2009-01-30"
+                },
+                {
+                    "Company A - Share Value": "19.69"
+                },
+                {
+                    "Company B - Date": "2009-01-30"
+                },
+                {
+                    "Company B - Share Value": "14.32"
+                }
+            ]
+        },
+        {
+            "Value_123": [
+                {
+                    "Company A - Date": "2009-02-27"
+                },
+                {
+                    "Company A - Share Value": "18.8"
+                },
+                {
+                    "Company B - Date": "2009-02-27"
+                },
+                {
+                    "Company B - Share Value": "13.06"
+                }
+            ]
+        },
+        {
+            "Value_124": [
+                {
+                    "Company A - Date": "2009-03-31"
+                },
+                {
+                    "Company A - Share Value": "17.82"
+                },
+                {
+                    "Company B - Date": "2009-03-31"
+                },
+                {
+                    "Company B - Share Value": "11.78"
+                }
+            ]
+        },
+        {
+            "Value_125": [
+                {
+                    "Company A - Date": "2009-04-30"
+                },
+                {
+                    "Company A - Share Value": "16.99"
+                },
+                {
+                    "Company B - Date": "2009-04-30"
+                },
+                {
+                    "Company B - Share Value": "10.28"
+                }
+            ]
+        },
+        {
+            "Value_126": [
+                {
+                    "Company A - Date": "2009-05-29"
+                },
+                {
+                    "Company A - Share Value": "16.43"
+                },
+                {
+                    "Company B - Date": "2009-05-29"
+                },
+                {
+                    "Company B - Share Value": "9.57"
+                }
+            ]
+        },
+        {
+            "Value_127": [
+                {
+                    "Company A - Date": "2009-06-30"
+                },
+                {
+                    "Company A - Share Value": "15.8"
+                },
+                {
+                    "Company B - Date": "2009-06-30"
+                },
+                {
+                    "Company B - Share Value": "9.51"
+                }
+            ]
+        },
+        {
+            "Value_128": [
+                {
+                    "Company A - Date": "2009-07-31"
+                },
+                {
+                    "Company A - Share Value": "15.14"
+                },
+                {
+                    "Company B - Date": "2009-07-31"
+                },
+                {
+                    "Company B - Share Value": "9.36"
+                }
+            ]
+        },
+        {
+            "Value_129": [
+                {
+                    "Company A - Date": "2009-08-31"
+                },
+                {
+                    "Company A - Share Value": "15.23"
+                },
+                {
+                    "Company B - Date": "2009-08-31"
+                },
+                {
+                    "Company B - Share Value": "9.63"
+                }
+            ]
+        },
+        {
+            "Value_130": [
+                {
+                    "Company A - Date": "2009-09-30"
+                },
+                {
+                    "Company A - Share Value": "15.64"
+                },
+                {
+                    "Company B - Date": "2009-09-30"
+                },
+                {
+                    "Company B - Share Value": "10.19"
+                }
+            ]
+        },
+        {
+            "Value_131": [
+                {
+                    "Company A - Date": "2009-10-30"
+                },
+                {
+                    "Company A - Share Value": "16.25"
+                },
+                {
+                    "Company B - Date": "2009-10-30"
+                },
+                {
+                    "Company B - Share Value": "10.97"
+                }
+            ]
+        },
+        {
+            "Value_132": [
+                {
+                    "Company A - Date": "2009-11-30"
+                },
+                {
+                    "Company A - Share Value": "16.68"
+                },
+                {
+                    "Company B - Date": "2009-11-30"
+                },
+                {
+                    "Company B - Share Value": "11.36"
+                }
+            ]
+        },
+        {
+            "Value_133": [
+                {
+                    "Company A - Date": "2009-12-31"
+                },
+                {
+                    "Company A - Share Value": "17.35"
+                },
+                {
+                    "Company B - Date": "2009-12-31"
+                },
+                {
+                    "Company B - Share Value": "11.88"
+                }
+            ]
+        },
+        {
+            "Value_134": [
+                {
+                    "Company A - Date": "2010-01-29"
+                },
+                {
+                    "Company A - Share Value": "18.17"
+                },
+                {
+                    "Company B - Date": "2010-01-29"
+                },
+                {
+                    "Company B - Share Value": "12.94"
+                }
+            ]
+        },
+        {
+            "Value_135": [
+                {
+                    "Company A - Date": "2010-02-26"
+                },
+                {
+                    "Company A - Share Value": "18.64"
+                },
+                {
+                    "Company B - Date": "2010-02-26"
+                },
+                {
+                    "Company B - Share Value": "13.51"
+                }
+            ]
+        },
+        {
+            "Value_136": [
+                {
+                    "Company A - Date": "2010-03-31"
+                },
+                {
+                    "Company A - Share Value": "19.13"
+                },
+                {
+                    "Company B - Date": "2010-03-31"
+                },
+                {
+                    "Company B - Share Value": "13.99"
+                }
+            ]
+        },
+        {
+            "Value_137": [
+                {
+                    "Company A - Date": "2010-04-30"
+                },
+                {
+                    "Company A - Share Value": "19.77"
+                },
+                {
+                    "Company B - Date": "2010-04-30"
+                },
+                {
+                    "Company B - Share Value": "14.68"
+                }
+            ]
+        },
+        {
+            "Value_138": [
+                {
+                    "Company A - Date": "2010-05-28"
+                },
+                {
+                    "Company A - Share Value": "20.4"
+                },
+                {
+                    "Company B - Date": "2010-05-28"
+                },
+                {
+                    "Company B - Share Value": "15.12"
+                }
+            ]
+        },
+        {
+            "Value_139": [
+                {
+                    "Company A - Date": "2010-06-30"
+                },
+                {
+                    "Company A - Share Value": "20.58"
+                },
+                {
+                    "Company B - Date": "2010-06-30"
+                },
+                {
+                    "Company B - Share Value": "15.1"
+                }
+            ]
+        },
+        {
+            "Value_140": [
+                {
+                    "Company A - Date": "2010-07-30"
+                },
+                {
+                    "Company A - Share Value": "20.5"
+                },
+                {
+                    "Company B - Date": "2010-07-30"
+                },
+                {
+                    "Company B - Share Value": "14.67"
+                }
+            ]
+        },
+        {
+            "Value_141": [
+                {
+                    "Company A - Date": "2010-08-31"
+                },
+                {
+                    "Company A - Share Value": "20.65"
+                },
+                {
+                    "Company B - Date": "2010-08-31"
+                },
+                {
+                    "Company B - Share Value": "14.11"
+                }
+            ]
+        },
+        {
+            "Value_142": [
+                {
+                    "Company A - Date": "2010-09-30"
+                },
+                {
+                    "Company A - Share Value": "20.54"
+                },
+                {
+                    "Company B - Date": "2010-09-30"
+                },
+                {
+                    "Company B - Share Value": "13.86"
+                }
+            ]
+        },
+        {
+            "Value_143": [
+                {
+                    "Company A - Date": "2010-10-29"
+                },
+                {
+                    "Company A - Share Value": "20.54"
+                },
+                {
+                    "Company B - Date": "2010-10-29"
+                },
+                {
+                    "Company B - Share Value": "13.73"
+                }
+            ]
+        },
+        {
+            "Value_144": [
+                {
+                    "Company A - Date": "2010-11-30"
+                },
+                {
+                    "Company A - Share Value": "20.49"
+                },
+                {
+                    "Company B - Date": "2010-11-30"
+                },
+                {
+                    "Company B - Share Value": "13.09"
+                }
+            ]
+        },
+        {
+            "Value_145": [
+                {
+                    "Company A - Date": "2010-12-31"
+                },
+                {
+                    "Company A - Share Value": "20.69"
+                },
+                {
+                    "Company B - Date": "2010-12-31"
+                },
+                {
+                    "Company B - Share Value": "12.93"
+                }
+            ]
+        },
+        {
+            "Value_146": [
+                {
+                    "Company A - Date": "2011-01-31"
+                },
+                {
+                    "Company A - Share Value": "20.72"
+                },
+                {
+                    "Company B - Date": "2011-01-31"
+                },
+                {
+                    "Company B - Share Value": "12.86"
+                }
+            ]
+        },
+        {
+            "Value_147": [
+                {
+                    "Company A - Date": "2011-02-28"
+                },
+                {
+                    "Company A - Share Value": "20.63"
+                },
+                {
+                    "Company B - Date": "2011-02-28"
+                },
+                {
+                    "Company B - Share Value": "13.53"
+                }
+            ]
+        },
+        {
+            "Value_148": [
+                {
+                    "Company A - Date": "2011-03-31"
+                },
+                {
+                    "Company A - Share Value": "20.5"
+                },
+                {
+                    "Company B - Date": "2011-03-31"
+                },
+                {
+                    "Company B - Share Value": "14.22"
+                }
+            ]
+        },
+        {
+            "Value_149": [
+                {
+                    "Company A - Date": "2011-04-29"
+                },
+                {
+                    "Company A - Share Value": "20.4"
+                },
+                {
+                    "Company B - Date": "2011-04-29"
+                },
+                {
+                    "Company B - Share Value": "14.79"
+                }
+            ]
+        },
+        {
+            "Value_150": [
+                {
+                    "Company A - Date": "2011-05-31"
+                },
+                {
+                    "Company A - Share Value": "20.76"
+                },
+                {
+                    "Company B - Date": "2011-05-31"
+                },
+                {
+                    "Company B - Share Value": "15.81"
+                }
+            ]
+        },
+        {
+            "Value_151": [
+                {
+                    "Company A - Date": "2011-06-30"
+                },
+                {
+                    "Company A - Share Value": "20.92"
+                },
+                {
+                    "Company B - Date": "2011-06-30"
+                },
+                {
+                    "Company B - Share Value": "16.87"
+                }
+            ]
+        },
+        {
+            "Value_152": [
+                {
+                    "Company A - Date": "2011-07-29"
+                },
+                {
+                    "Company A - Share Value": "21.34"
+                },
+                {
+                    "Company B - Date": "2011-07-29"
+                },
+                {
+                    "Company B - Share Value": "17.52"
+                }
+            ]
+        },
+        {
+            "Value_153": [
+                {
+                    "Company A - Date": "2011-08-31"
+                },
+                {
+                    "Company A - Share Value": "21.66"
+                },
+                {
+                    "Company B - Date": "2011-08-31"
+                },
+                {
+                    "Company B - Share Value": "17.75"
+                }
+            ]
+        },
+        {
+            "Value_154": [
+                {
+                    "Company A - Date": "2011-09-30"
+                },
+                {
+                    "Company A - Share Value": "21.65"
+                },
+                {
+                    "Company B - Date": "2011-09-30"
+                },
+                {
+                    "Company B - Share Value": "17.89"
+                }
+            ]
+        },
+        {
+            "Value_155": [
+                {
+                    "Company A - Date": "2011-10-31"
+                },
+                {
+                    "Company A - Share Value": "21.62"
+                },
+                {
+                    "Company B - Date": "2011-10-31"
+                },
+                {
+                    "Company B - Share Value": "17.73"
+                }
+            ]
+        },
+        {
+            "Value_156": [
+                {
+                    "Company A - Date": "2011-11-30"
+                },
+                {
+                    "Company A - Share Value": "21.93"
+                },
+                {
+                    "Company B - Date": "2011-11-30"
+                },
+                {
+                    "Company B - Share Value": "17.61"
+                }
+            ]
+        },
+        {
+            "Value_157": [
+                {
+                    "Company A - Date": "2011-12-30"
+                },
+                {
+                    "Company A - Share Value": "22.27"
+                },
+                {
+                    "Company B - Date": "2011-12-30"
+                },
+                {
+                    "Company B - Share Value": "16.75"
+                }
+            ]
+        },
+        {
+            "Value_158": [
+                {
+                    "Company A - Date": "2012-01-31"
+                },
+                {
+                    "Company A - Share Value": "22.57"
+                },
+                {
+                    "Company B - Date": "2012-01-31"
+                },
+                {
+                    "Company B - Share Value": "15.91"
+                }
+            ]
+        },
+        {
+            "Value_159": [
+                {
+                    "Company A - Date": "2012-02-29"
+                },
+                {
+                    "Company A - Share Value": "23.2"
+                },
+                {
+                    "Company B - Date": "2012-02-29"
+                },
+                {
+                    "Company B - Share Value": "15.53"
+                }
+            ]
+        },
+        {
+            "Value_160": [
+                {
+                    "Company A - Date": "2012-03-30"
+                },
+                {
+                    "Company A - Share Value": "23.61"
+                },
+                {
+                    "Company B - Date": "2012-03-30"
+                },
+                {
+                    "Company B - Share Value": "15.01"
+                }
+            ]
+        },
+        {
+            "Value_161": [
+                {
+                    "Company A - Date": "2012-04-30"
+                },
+                {
+                    "Company A - Share Value": "24.17"
+                },
+                {
+                    "Company B - Date": "2012-04-30"
+                },
+                {
+                    "Company B - Share Value": "14.55"
+                }
+            ]
+        },
+        {
+            "Value_162": [
+                {
+                    "Company A - Date": "2012-05-31"
+                },
+                {
+                    "Company A - Share Value": "24.79"
+                },
+                {
+                    "Company B - Date": "2012-05-31"
+                },
+                {
+                    "Company B - Share Value": "14.25"
+                }
+            ]
+        },
+        {
+            "Value_163": [
+                {
+                    "Company A - Date": "2012-06-29"
+                },
+                {
+                    "Company A - Share Value": "25.08"
+                },
+                {
+                    "Company B - Date": "2012-06-29"
+                },
+                {
+                    "Company B - Share Value": "14.05"
+                }
+            ]
+        },
+        {
+            "Value_164": [
+                {
+                    "Company A - Date": "2012-07-31"
+                },
+                {
+                    "Company A - Share Value": "25.7"
+                },
+                {
+                    "Company B - Date": "2012-07-31"
+                },
+                {
+                    "Company B - Share Value": "14.09"
+                }
+            ]
+        },
+        {
+            "Value_165": [
+                {
+                    "Company A - Date": "2012-08-31"
+                },
+                {
+                    "Company A - Share Value": "26.16"
+                },
+                {
+                    "Company B - Date": "2012-08-31"
+                },
+                {
+                    "Company B - Share Value": "14.22"
+                }
+            ]
+        },
+        {
+            "Value_166": [
+                {
+                    "Company A - Date": "2012-09-28"
+                },
+                {
+                    "Company A - Share Value": "26.26"
+                },
+                {
+                    "Company B - Date": "2012-09-28"
+                },
+                {
+                    "Company B - Share Value": "14.17"
+                }
+            ]
+        },
+        {
+            "Value_167": [
+                {
+                    "Company A - Date": "2012-10-31"
+                },
+                {
+                    "Company A - Share Value": "26.05"
+                },
+                {
+                    "Company B - Date": "2012-10-31"
+                },
+                {
+                    "Company B - Share Value": "13.96"
+                }
+            ]
+        },
+        {
+            "Value_168": [
+                {
+                    "Company A - Date": "2012-11-30"
+                },
+                {
+                    "Company A - Share Value": "25.76"
+                },
+                {
+                    "Company B - Date": "2012-11-30"
+                },
+                {
+                    "Company B - Share Value": "13.74"
+                }
+            ]
+        },
+        {
+            "Value_169": [
+                {
+                    "Company A - Date": "2012-12-31"
+                },
+                {
+                    "Company A - Share Value": "25.08"
+                },
+                {
+                    "Company B - Date": "2012-12-31"
+                },
+                {
+                    "Company B - Share Value": "13.45"
+                }
+            ]
+        },
+        {
+            "Value_170": [
+                {
+                    "Company A - Date": "2013-01-31"
+                },
+                {
+                    "Company A - Share Value": "24.48"
+                },
+                {
+                    "Company B - Date": "2013-01-31"
+                },
+                {
+                    "Company B - Share Value": "13.19"
+                }
+            ]
+        },
+        {
+            "Value_171": [
+                {
+                    "Company A - Date": "2013-02-28"
+                },
+                {
+                    "Company A - Share Value": "23.8"
+                },
+                {
+                    "Company B - Date": "2013-02-28"
+                },
+                {
+                    "Company B - Share Value": "12.89"
+                }
+            ]
+        },
+        {
+            "Value_172": [
+                {
+                    "Company A - Date": "2013-03-28"
+                },
+                {
+                    "Company A - Share Value": "23.03"
+                },
+                {
+                    "Company B - Date": "2013-03-28"
+                },
+                {
+                    "Company B - Share Value": "12.85"
+                }
+            ]
+        },
+        {
+            "Value_173": [
+                {
+                    "Company A - Date": "2013-04-30"
+                },
+                {
+                    "Company A - Share Value": "22.66"
+                },
+                {
+                    "Company B - Date": "2013-04-30"
+                },
+                {
+                    "Company B - Share Value": "12.92"
+                }
+            ]
+        },
+        {
+            "Value_174": [
+                {
+                    "Company A - Date": "2013-05-31"
+                },
+                {
+                    "Company A - Share Value": "22.39"
+                },
+                {
+                    "Company B - Date": "2013-05-31"
+                },
+                {
+                    "Company B - Share Value": "12.9"
+                }
+            ]
+        },
+        {
+            "Value_175": [
+                {
+                    "Company A - Date": "2013-06-28"
+                },
+                {
+                    "Company A - Share Value": "22.3"
+                },
+                {
+                    "Company B - Date": "2013-06-28"
+                },
+                {
+                    "Company B - Share Value": "12.99"
+                }
+            ]
+        },
+        {
+            "Value_176": [
+                {
+                    "Company A - Date": "2013-07-31"
+                },
+                {
+                    "Company A - Share Value": "22.23"
+                },
+                {
+                    "Company B - Date": "2013-07-31"
+                },
+                {
+                    "Company B - Share Value": "13.03"
+                }
+            ]
+        },
+        {
+            "Value_177": [
+                {
+                    "Company A - Date": "2013-08-30"
+                },
+                {
+                    "Company A - Share Value": "22.29"
+                },
+                {
+                    "Company B - Date": "2013-08-30"
+                },
+                {
+                    "Company B - Share Value": "13.13"
+                }
+            ]
+        },
+        {
+            "Value_178": [
+                {
+                    "Company A - Date": "2013-09-30"
+                },
+                {
+                    "Company A - Share Value": "22.34"
+                },
+                {
+                    "Company B - Date": "2013-09-30"
+                },
+                {
+                    "Company B - Share Value": "13.41"
+                }
+            ]
+        },
+        {
+            "Value_179": [
+                {
+                    "Company A - Date": "2013-10-31"
+                },
+                {
+                    "Company A - Share Value": "22.64"
+                },
+                {
+                    "Company B - Date": "2013-10-31"
+                },
+                {
+                    "Company B - Share Value": "13.76"
+                }
+            ]
+        },
+        {
+            "Value_180": [
+                {
+                    "Company A - Date": "2013-11-29"
+                },
+                {
+                    "Company A - Share Value": "22.98"
+                },
+                {
+                    "Company B - Date": "2013-11-29"
+                },
+                {
+                    "Company B - Share Value": "14.03"
+                }
+            ]
+        },
+        {
+            "Value_181": [
+                {
+                    "Company A - Date": "2013-12-31"
+                },
+                {
+                    "Company A - Share Value": "23.26"
+                },
+                {
+                    "Company B - Date": "2013-12-31"
+                },
+                {
+                    "Company B - Share Value": "14.34"
+                }
+            ]
+        },
+        {
+            "Value_182": [
+                {
+                    "Company A - Date": "2014-01-31"
+                },
+                {
+                    "Company A - Share Value": "23.76"
+                },
+                {
+                    "Company B - Date": "2014-01-31"
+                },
+                {
+                    "Company B - Share Value": "14.68"
+                }
+            ]
+        },
+        {
+            "Value_183": [
+                {
+                    "Company A - Date": "2014-02-28"
+                },
+                {
+                    "Company A - Share Value": "24.04"
+                },
+                {
+                    "Company B - Date": "2014-02-28"
+                },
+                {
+                    "Company B - Share Value": "14.98"
+                }
+            ]
+        },
+        {
+            "Value_184": [
+                {
+                    "Company A - Date": "2014-03-31"
+                },
+                {
+                    "Company A - Share Value": "24.11"
+                },
+                {
+                    "Company B - Date": "2014-03-31"
+                },
+                {
+                    "Company B - Share Value": "15.4"
+                }
+            ]
+        },
+        {
+            "Value_185": [
+                {
+                    "Company A - Date": "2014-04-30"
+                },
+                {
+                    "Company A - Share Value": "24.2"
+                },
+                {
+                    "Company B - Date": "2014-04-30"
+                },
+                {
+                    "Company B - Share Value": "15.8"
+                }
+            ]
+        },
+        {
+            "Value_186": [
+                {
+                    "Company A - Date": "2014-05-30"
+                },
+                {
+                    "Company A - Share Value": "24.42"
+                },
+                {
+                    "Company B - Date": "2014-05-30"
+                },
+                {
+                    "Company B - Share Value": "16.26"
+                }
+            ]
+        },
+        {
+            "Value_187": [
+                {
+                    "Company A - Date": "2014-06-30"
+                },
+                {
+                    "Company A - Share Value": "24.81"
+                },
+                {
+                    "Company B - Date": "2014-06-30"
+                },
+                {
+                    "Company B - Share Value": "16.72"
+                }
+            ]
+        },
+        {
+            "Value_188": [
+                {
+                    "Company A - Date": "2014-07-31"
+                },
+                {
+                    "Company A - Share Value": "25.69"
+                },
+                {
+                    "Company B - Date": "2014-07-31"
+                },
+                {
+                    "Company B - Share Value": "17.09"
+                }
+            ]
+        },
+        {
+            "Value_189": [
+                {
+                    "Company A - Date": "2014-08-29"
+                },
+                {
+                    "Company A - Share Value": "26.77"
+                },
+                {
+                    "Company B - Date": "2014-08-29"
+                },
+                {
+                    "Company B - Share Value": "17.28"
+                }
+            ]
+        },
+        {
+            "Value_190": [
+                {
+                    "Company A - Date": "2014-09-30"
+                },
+                {
+                    "Company A - Share Value": "27.8"
+                },
+                {
+                    "Company B - Date": "2014-09-30"
+                },
+                {
+                    "Company B - Share Value": "17.7"
+                }
+            ]
+        },
+        {
+            "Value_191": [
+                {
+                    "Company A - Date": "2014-10-31"
+                },
+                {
+                    "Company A - Share Value": "28.86"
+                },
+                {
+                    "Company B - Date": "2014-10-31"
+                },
+                {
+                    "Company B - Share Value": "18"
+                }
+            ]
+        },
+        {
+            "Value_192": [
+                {
+                    "Company A - Date": "2014-11-28"
+                },
+                {
+                    "Company A - Share Value": "29.66"
+                },
+                {
+                    "Company B - Date": "2014-11-28"
+                },
+                {
+                    "Company B - Share Value": "18.41"
+                }
+            ]
+        },
+        {
+            "Value_193": [
+                {
+                    "Company A - Date": "2014-12-31"
+                },
+                {
+                    "Company A - Share Value": "30.93"
+                },
+                {
+                    "Company B - Date": "2014-12-31"
+                },
+                {
+                    "Company B - Share Value": "18.91"
+                }
+            ]
+        },
+        {
+            "Value_194": [
+                {
+                    "Company A - Date": "2015-01-30"
+                },
+                {
+                    "Company A - Share Value": "32.14"
+                },
+                {
+                    "Company B - Date": "2015-01-30"
+                },
+                {
+                    "Company B - Share Value": "19.13"
+                }
+            ]
+        },
+        {
+            "Value_195": [
+                {
+                    "Company A - Date": "2015-02-27"
+                },
+                {
+                    "Company A - Share Value": "32.87"
+                },
+                {
+                    "Company B - Date": "2015-02-27"
+                },
+                {
+                    "Company B - Share Value": "19.21"
+                }
+            ]
+        },
+        {
+            "Value_196": [
+                {
+                    "Company A - Date": "2015-03-31"
+                },
+                {
+                    "Company A - Share Value": "33.55"
+                },
+                {
+                    "Company B - Date": "2015-03-31"
+                },
+                {
+                    "Company B - Share Value": "19.54"
+                }
+            ]
+        },
+        {
+            "Value_197": [
+                {
+                    "Company A - Date": "2015-04-30"
+                },
+                {
+                    "Company A - Share Value": "33.93"
+                },
+                {
+                    "Company B - Date": "2015-04-30"
+                },
+                {
+                    "Company B - Share Value": "19.73"
+                }
+            ]
+        },
+        {
+            "Value_198": [
+                {
+                    "Company A - Date": "2015-05-29"
+                },
+                {
+                    "Company A - Share Value": "34.09"
+                },
+                {
+                    "Company B - Date": "2015-05-29"
+                },
+                {
+                    "Company B - Share Value": "20.12"
+                }
+            ]
+        },
+        {
+            "Value_199": [
+                {
+                    "Company A - Date": "2015-06-30"
+                },
+                {
+                    "Company A - Share Value": "34.15"
+                },
+                {
+                    "Company B - Date": "2015-06-30"
+                },
+                {
+                    "Company B - Share Value": "20.6"
+                }
+            ]
+        },
+        {
+            "Value_200": [
+                {
+                    "Company A - Date": "2015-07-31"
+                },
+                {
+                    "Company A - Share Value": "33.73"
+                },
+                {
+                    "Company B - Date": "2015-07-31"
+                },
+                {
+                    "Company B - Share Value": "20.71"
+                }
+            ]
+        },
+        {
+            "Value_201": [
+                {
+                    "Company A - Date": "2015-08-31"
+                },
+                {
+                    "Company A - Share Value": "33.17"
+                },
+                {
+                    "Company B - Date": "2015-08-31"
+                },
+                {
+                    "Company B - Share Value": "20.87"
+                }
+            ]
+        },
+        {
+            "Value_202": [
+                {
+                    "Company A - Date": "2015-09-30"
+                },
+                {
+                    "Company A - Share Value": "32.58"
+                },
+                {
+                    "Company B - Date": "2015-09-30"
+                },
+                {
+                    "Company B - Share Value": "21.05"
+                }
+            ]
+        },
+        {
+            "Value_203": [
+                {
+                    "Company A - Date": "2015-10-30"
+                },
+                {
+                    "Company A - Share Value": "31.88"
+                },
+                {
+                    "Company B - Date": "2015-10-30"
+                },
+                {
+                    "Company B - Share Value": "21.43"
+                }
+            ]
+        },
+        {
+            "Value_204": [
+                {
+                    "Company A - Date": "2015-11-30"
+                },
+                {
+                    "Company A - Share Value": "31.59"
+                },
+                {
+                    "Company B - Date": "2015-11-30"
+                },
+                {
+                    "Company B - Share Value": "22.26"
+                }
+            ]
+        },
+        {
+            "Value_205": [
+                {
+                    "Company A - Date": "2015-12-31"
+                },
+                {
+                    "Company A - Share Value": "31.78"
+                },
+                {
+                    "Company B - Date": "2015-12-31"
+                },
+                {
+                    "Company B - Share Value": "23.53"
+                }
+            ]
+        },
+        {
+            "Value_206": [
+                {
+                    "Company A - Date": "2016-01-29"
+                },
+                {
+                    "Company A - Share Value": "31.84"
+                },
+                {
+                    "Company B - Date": "2016-01-29"
+                },
+                {
+                    "Company B - Share Value": "24.56"
+                }
+            ]
+        },
+        {
+            "Value_207": [
+                {
+                    "Company A - Date": "2016-02-29"
+                },
+                {
+                    "Company A - Share Value": "31.8"
+                },
+                {
+                    "Company B - Date": "2016-02-29"
+                },
+                {
+                    "Company B - Share Value": "25.39"
+                }
+            ]
+        },
+        {
+            "Value_208": [
+                {
+                    "Company A - Date": "2016-03-31"
+                },
+                {
+                    "Company A - Share Value": "31.53"
+                },
+                {
+                    "Company B - Date": "2016-03-31"
+                },
+                {
+                    "Company B - Share Value": "26.29"
+                }
+            ]
+        },
+        {
+            "Value_209": [
+                {
+                    "Company A - Date": "2016-04-29"
+                },
+                {
+                    "Company A - Share Value": "31.32"
+                },
+                {
+                    "Company B - Date": "2016-04-29"
+                },
+                {
+                    "Company B - Share Value": "27.61"
+                }
+            ]
+        },
+        {
+            "Value_210": [
+                {
+                    "Company A - Date": "2016-05-31"
+                },
+                {
+                    "Company A - Share Value": "31.31"
+                },
+                {
+                    "Company B - Date": "2016-05-31"
+                },
+                {
+                    "Company B - Share Value": "29.13"
+                }
+            ]
+        },
+        {
+            "Value_211": [
+                {
+                    "Company A - Date": "2016-06-30"
+                },
+                {
+                    "Company A - Share Value": "31.58"
+                },
+                {
+                    "Company B - Date": "2016-06-30"
+                },
+                {
+                    "Company B - Share Value": "31.77"
+                }
+            ]
+        },
+        {
+            "Value_212": [
+                {
+                    "Company A - Date": "2016-07-29"
+                },
+                {
+                    "Company A - Share Value": "32.05"
+                },
+                {
+                    "Company B - Date": "2016-07-29"
+                },
+                {
+                    "Company B - Share Value": "34.26"
+                }
+            ]
+        },
+        {
+            "Value_213": [
+                {
+                    "Company A - Date": "2016-08-31"
+                },
+                {
+                    "Company A - Share Value": "32.51"
+                },
+                {
+                    "Company B - Date": "2016-08-31"
+                },
+                {
+                    "Company B - Share Value": "37.53"
+                }
+            ]
+        },
+        {
+            "Value_214": [
+                {
+                    "Company A - Date": "2016-09-30"
+                },
+                {
+                    "Company A - Share Value": "32.73"
+                },
+                {
+                    "Company B - Date": "2016-09-30"
+                },
+                {
+                    "Company B - Share Value": "40.83"
+                }
+            ]
+        },
+        {
+            "Value_215": [
+                {
+                    "Company A - Date": "2016-10-31"
+                },
+                {
+                    "Company A - Share Value": "33"
+                },
+                {
+                    "Company B - Date": "2016-10-31"
+                },
+                {
+                    "Company B - Share Value": "44.48"
+                }
+            ]
+        },
+        {
+            "Value_216": [
+                {
+                    "Company A - Date": "2016-11-30"
+                },
+                {
+                    "Company A - Share Value": "33.1"
+                },
+                {
+                    "Company B - Date": "2016-11-30"
+                },
+                {
+                    "Company B - Share Value": "48.39"
+                }
+            ]
+        },
+        {
+            "Value_217": [
+                {
+                    "Company A - Date": "2016-12-30"
+                },
+                {
+                    "Company A - Share Value": "33.52"
+                },
+                {
+                    "Company B - Date": "2016-12-30"
+                },
+                {
+                    "Company B - Share Value": "54.67"
+                }
+            ]
+        },
+        {
+            "Value_218": [
+                {
+                    "Company A - Date": "2017-01-31"
+                },
+                {
+                    "Company A - Share Value": "34.19"
+                },
+                {
+                    "Company B - Date": "2017-01-31"
+                },
+                {
+                    "Company B - Share Value": "61.97"
+                }
+            ]
+        },
+        {
+            "Value_219": [
+                {
+                    "Company A - Date": "2017-02-28"
+                },
+                {
+                    "Company A - Share Value": "34.64"
+                },
+                {
+                    "Company B - Date": "2017-02-28"
+                },
+                {
+                    "Company B - Share Value": "69.49"
+                }
+            ]
+        },
+        {
+            "Value_220": [
+                {
+                    "Company A - Date": "2017-03-31"
+                },
+                {
+                    "Company A - Share Value": "35.18"
+                },
+                {
+                    "Company B - Date": "2017-03-31"
+                },
+                {
+                    "Company B - Share Value": "76.28"
+                }
+            ]
+        },
+        {
+            "Value_221": [
+                {
+                    "Company A - Date": "2017-04-28"
+                },
+                {
+                    "Company A - Share Value": "35.64"
+                },
+                {
+                    "Company B - Date": "2017-04-28"
+                },
+                {
+                    "Company B - Share Value": "82.52"
+                }
+            ]
+        },
+        {
+            "Value_222": [
+                {
+                    "Company A - Date": "2017-05-31"
+                },
+                {
+                    "Company A - Share Value": "35.98"
+                },
+                {
+                    "Company B - Date": "2017-05-31"
+                },
+                {
+                    "Company B - Share Value": "88.32"
+                }
+            ]
+        },
+        {
+            "Value_223": [
+                {
+                    "Company A - Date": "2017-06-30"
+                },
+                {
+                    "Company A - Share Value": "36.11"
+                },
+                {
+                    "Company B - Date": "2017-06-30"
+                },
+                {
+                    "Company B - Share Value": "97.09"
+                }
+            ]
+        },
+        {
+            "Value_224": [
+                {
+                    "Company A - Date": "2017-07-31"
+                },
+                {
+                    "Company A - Share Value": "35.87"
+                },
+                {
+                    "Company B - Date": "2017-07-31"
+                },
+                {
+                    "Company B - Share Value": "105.45"
+                }
+            ]
+        },
+        {
+            "Value_225": [
+                {
+                    "Company A - Date": "2017-08-31"
+                },
+                {
+                    "Company A - Share Value": "35.74"
+                },
+                {
+                    "Company B - Date": "2017-08-31"
+                },
+                {
+                    "Company B - Share Value": "114.81"
+                }
+            ]
+        },
+        {
+            "Value_226": [
+                {
+                    "Company A - Date": "2017-09-29"
+                },
+                {
+                    "Company A - Share Value": "35.77"
+                },
+                {
+                    "Company B - Date": "2017-09-29"
+                },
+                {
+                    "Company B - Share Value": "124.67"
+                }
+            ]
+        },
+        {
+            "Value_227": [
+                {
+                    "Company A - Date": "2017-10-31"
+                },
+                {
+                    "Company A - Share Value": "36.1"
+                },
+                {
+                    "Company B - Date": "2017-10-31"
+                },
+                {
+                    "Company B - Share Value": "133.54"
+                }
+            ]
+        },
+        {
+            "Value_228": [
+                {
+                    "Company A - Date": "2017-11-30"
+                },
+                {
+                    "Company A - Share Value": "37.03"
+                },
+                {
+                    "Company B - Date": "2017-11-30"
+                },
+                {
+                    "Company B - Share Value": "144.03"
+                }
+            ]
+        },
+        {
+            "Value_229": [
+                {
+                    "Company A - Date": "2017-12-29"
+                },
+                {
+                    "Company A - Share Value": "37.82"
+                },
+                {
+                    "Company B - Date": "2017-12-29"
+                },
+                {
+                    "Company B - Share Value": "152.91"
+                }
+            ]
+        },
+        {
+            "Value_230": [
+                {
+                    "Company A - Date": "2018-01-31"
+                },
+                {
+                    "Company A - Share Value": "38.88"
+                },
+                {
+                    "Company B - Date": "2018-01-31"
+                },
+                {
+                    "Company B - Share Value": "162.1"
+                }
+            ]
+        },
+        {
+            "Value_231": [
+                {
+                    "Company A - Date": "2018-02-28"
+                },
+                {
+                    "Company A - Share Value": "40.03"
+                },
+                {
+                    "Company B - Date": "2018-02-28"
+                },
+                {
+                    "Company B - Share Value": "175.06"
+                }
+            ]
+        },
+        {
+            "Value_232": [
+                {
+                    "Company A - Date": "2018-03-29"
+                },
+                {
+                    "Company A - Share Value": "41.37"
+                },
+                {
+                    "Company B - Date": "2018-03-29"
+                },
+                {
+                    "Company B - Share Value": "188.78"
+                }
+            ]
+        },
+        {
+            "Value_233": [
+                {
+                    "Company A - Date": "2018-04-30"
+                },
+                {
+                    "Company A - Share Value": "42.92"
+                },
+                {
+                    "Company B - Date": "2018-04-30"
+                },
+                {
+                    "Company B - Share Value": "197.15"
+                }
+            ]
+        },
+        {
+            "Value_234": [
+                {
+                    "Company A - Date": "2018-05-31"
+                },
+                {
+                    "Company A - Share Value": "44.74"
+                },
+                {
+                    "Company B - Date": "2018-05-31"
+                },
+                {
+                    "Company B - Share Value": "205.11"
+                }
+            ]
+        },
+        {
+            "Value_235": [
+                {
+                    "Company A - Date": "2018-06-29"
+                },
+                {
+                    "Company A - Share Value": "46.68"
+                },
+                {
+                    "Company B - Date": "2018-06-29"
+                },
+                {
+                    "Company B - Share Value": "214.29"
+                }
+            ]
+        },
+        {
+            "Value_236": [
+                {
+                    "Company A - Date": "2018-07-31"
+                },
+                {
+                    "Company A - Share Value": "48.06"
+                },
+                {
+                    "Company B - Date": "2018-07-31"
+                },
+                {
+                    "Company B - Share Value": "220.71"
+                }
+            ]
+        },
+        {
+            "Value_237": [
+                {
+                    "Company A - Date": "2018-08-31"
+                },
+                {
+                    "Company A - Share Value": "49.05"
+                },
+                {
+                    "Company B - Date": "2018-08-31"
+                },
+                {
+                    "Company B - Share Value": "227.24"
+                }
+            ]
+        },
+        {
+            "Value_238": [
+                {
+                    "Company A - Date": "2018-09-28"
+                },
+                {
+                    "Company A - Share Value": "49.3"
+                },
+                {
+                    "Company B - Date": "2018-09-28"
+                },
+                {
+                    "Company B - Share Value": "234.32"
+                }
+            ]
+        },
+        {
+            "Value_239": [
+                {
+                    "Company A - Date": "2018-10-31"
+                },
+                {
+                    "Company A - Share Value": "49.5"
+                },
+                {
+                    "Company B - Date": "2018-10-31"
+                },
+                {
+                    "Company B - Share Value": "242.81"
+                }
+            ]
+        },
+        {
+            "Value_240": [
+                {
+                    "Company A - Date": "2018-11-30"
+                },
+                {
+                    "Company A - Share Value": "49.56"
+                },
+                {
+                    "Company B - Date": "2018-11-30"
+                },
+                {
+                    "Company B - Share Value": "244.46"
+                }
+            ]
+        },
+        {
+            "Value_241": [
+                {
+                    "Company A - Date": "2018-12-31"
+                },
+                {
+                    "Company A - Share Value": "49.79"
+                },
+                {
+                    "Company B - Date": "2018-12-31"
+                },
+                {
+                    "Company B - Share Value": "237.87"
+                }
+            ]
+        },
+        {
+            "Value_242": [
+                {
+                    "Company A - Date": "2019-01-22 16:00:01"
+                },
+                {
+                    "Company A - Share Value": "49.43"
+                },
+                {
+                    "Company B - Date": "2019-01-22 16:00:01"
+                },
+                {
+                    "Company B - Share Value": "226.74"
+                }
+            ]
+        }
+    ]
+}

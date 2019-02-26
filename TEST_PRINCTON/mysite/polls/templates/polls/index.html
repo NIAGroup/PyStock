@@ -1,8 +1,17 @@
 {% if latest_question_list %}
+<<<<<<< HEAD
 <form action='actionUrl' method='GET'>
 <button id="runScript_btn" type="button" style="height:100px;width:100px" action=testFxn>{{question.x}}</button>
 </form>
 <h1>{{question.x}}</h1>
+=======
+<!--my test button -->
+<form action='actionUrl' method='GET'>
+<button id="runScript_btn" type="button" style="height:100px;width:100px" onclick="location.href={% url 'polls:testFxn' %}">'Test'</button>
+</form>
+{% csrf_token %}
+<h1>"Le Duh"</h1>
+>>>>>>> 4ed7ccfc86b3d0ce2a81a7c8b7ed7b8457e5b16a
     <ul>
     {% for question in latest_question_list %}
         <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
@@ -13,4 +22,35 @@
 {% endif %}
 
 {% load static %}
+<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+=======
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+<script>
+    $("#button_id").on('click', function () {
+      var username = $(this).val();
+      var active = <true> // or false, you have to set it
+      var active = <id> // you have to set it
+      $.ajax({
+        url: '/ajax/validate_username/',
+        data: {
+          'csrfmiddlewaretoken': $('input[name="csrfmiddlewaretoken"]').val(),
+          'active': active
+          'job_id': username
+        },
+        dataType: 'json',
+        success: function (data) {
+          if (data.success) {
+            alert("ajax call success.");
+            // here you update the HTML to change the active to innactive
+          }else{
+            alert("ajax call not success.");
+          }
+        }
+      });
+
+    });
+  </script>
+>>>>>>> 4ed7ccfc86b3d0ce2a81a7c8b7ed7b8457e5b16a
