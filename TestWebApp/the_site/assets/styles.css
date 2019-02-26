@@ -1,0 +1,45 @@
+body{
+    background-color: #0f121f;
+    background-repeat-y: no-repeat;
+    color: #fff;
+}
+
+body *{
+  font-family: Ubuntu;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: normal;
+  margin: 0;
+}
+
+a, a:hover,a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+table,tr, td, th {
+  border:3px solid #0f121f;
+  border-collapse: collapse;
+  padding-top: 3px
+  text-align:right;
+  width: 100%
+
+}
+th, td {
+  padding: 15px;
+}
+
+.main_chart{
+  background-color: #777;
+}
+.sidenav {
+  height: 100%;
+  width: 20%;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  background-color: #66b2b2;
+}

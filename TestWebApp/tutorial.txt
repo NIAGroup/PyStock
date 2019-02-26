@@ -1,0 +1,61 @@
+1.) Create the site (creates 'container' for apps):
+
+    django startproject [name of project]
+
+2.) cd into the newly created project; the ls command will provide the auto-generated file
+    when creating the new project using the django command. Those files include:
+        - the_site
+            - __init__.py
+            - settings.py
+            - urls.py
+            - wsgi.py
+        - db.sqlite3
+        - manage.py
+
+3.) The following command is used to start the server:
+    python manage.py runserver
+
+**NOTE: currently a placeholder will be seen when running**
+
+4.) Your WebApp server will be provided upon initiating the runserver command in command prompt/terminal/gitbash.
+    Example: http://127.0.0.1:8000/
+    Entering this in the browser will show your app once it has been developed.
+
+5.) Views & URLS - These are directly related to how the user navigates through the webapp. In the urls.py
+    file urls can be designated with any specific name and path (for embedded views/pages). Views can be thought
+    of as pages. The urls can be created with strings, but they have to be mapped to functions that must be created
+    in the views.py file. These functions are how the urls.py knows what to display when specific addresses, from
+    your developed app, are entered into a web browser.
+
+6.) For testing the view.py functions can return Http.Response("[random string for testing]"). With the return
+    HttpResponse with strings, the browser will return the strings provided in the views.py functions.
+
+7.) Create a views.py file and create functions for each desired view/page, then place it in the urls.py file
+    to a corresponding name. When running the server the newly created urls should provide the function returns
+    provided.
+
+8.) The functions currently only return strings, but html files can returned as templates. Create a 'templates'
+    directory and then create html files in the templates directory. These files can be used to replace the
+    returned string text.
+
+**NOTE:: The 'templates' directory must be included in the settings.py 'DIRS' array under TEMPLATES dict so that the
+         template html files can be returned successfully by the views.py file. Otherwise an error will occur.
+
+9.) Usually projects/sites are made up of multiple apps, each with it's own respective views.py, templates, and other
+    desired files & directories. Each with its own designs. A master urls.py can be kept in the master (1st) app, but
+    each app can also have its own urls.py file. To create an app use the following command:
+
+    python manage.py startapp [appname]
+
+**NOTE::ALWAYS add the newly created apps to the settings.py INSTALLED_APPS array.
+
+10.) Models - classes that represent field types for database storage. Each time a model is edited or added, a "migration"
+     must occur. Migrations should, as a best practice, be created each time a new app has been created:
+
+     python manage.py makemigrations
+
+     Then as changes are made to models, run migration:
+
+     python manage.py migrate
+
+11.)
