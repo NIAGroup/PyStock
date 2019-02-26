@@ -37,14 +37,14 @@ def getLeTicks(array_corrected_x):
 			leTicks.append(array_corrected_x[t])
 	return leTicks
 
-def grab_stock_points():
+def grab_stock_points(stock_symbol_A):
     #### ~~ the method below parses the arguments provided by the user. In the event that ~~ ####
     #### ~~ there are missing arguments or no arguments provided at all, the script will  ~~ ####
     #### ~~ provide default arguments.                                                    ~~ ####
     #stock_symbols = getArgs().split(":")
     #stock_symbol_A = stock_symbols[0]
     #stock_symbol_B = stock_symbols[1]
-    stock_symbol_A = "INTL"
+    #stock_symbol_A = "INTL"
     print("stock A: "+stock_symbol_A)
 
 

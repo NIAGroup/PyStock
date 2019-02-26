@@ -18,10 +18,14 @@
         <p></p>
         <form class="site-form" action="/stocks/addstocks" method="post">
           {% csrf_token %}
-          {{form}}
+          {{form_A}}
           <input type="submit" value="Add Stock">
         </form>
-
+        <form class="site-form" action="/stocks/getData" method="post">
+          {% csrf_token %}
+          {{form_B}}
+          <input type='submit' value="Plot Stock">
+        </form>
           <div class="container" style="height:40%; width:80%">
             <canvas class="main_chart" id="myChart"></canvas>
           </div>
