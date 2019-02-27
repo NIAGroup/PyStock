@@ -39,7 +39,7 @@ def AddStock(request):
     return render(request,"stocks/stock_create.html",{'form':form})
 
 def get_LeData(request,*args,**kwargs):
-    stock_symbol_A = request.POST.get('search_stock_symbol')
+    stock_symbol_A = request.GET.get('search_stock_symbol')
     print("This is the stock: " + str(stock_symbol_A))
     '''data = {
         "val1": 100,
@@ -47,7 +47,7 @@ def get_LeData(request,*args,**kwargs):
     }'''
     chart_labels = []
     chart_points = []
-    if request.POST.get('search_stock_symbol') != None:
+    if request.GET.get('search_stock_symbol') != None:
         data = grab_stock_points(stock_symbol_A)
     else:
         data = grab_stock_points('INTL')
@@ -62,9 +62,10 @@ def get_LeData(request,*args,**kwargs):
         chart_points.append(str(data[s]["SMA"]))
         data_points["points"].append(data_point)
     data_points = {
-    "stock_name":request.POST.get('search_stock_symbol'),
+    "stock_name":request.GET.get('search_stock_symbol'),
     "dates":chart_labels[::-1],
     "values":chart_points[::-1],
     }
+
     return JsonResponse(data_points)
     #return JsonResponse(data)

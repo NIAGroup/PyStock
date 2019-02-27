@@ -21,11 +21,12 @@
           {{form_A}}
           <input type="submit" value="Add Stock">
         </form>
-        <form class="site-form" action="/stocks/getData" method="post">
+        <form id="plot-form" class="site-form" method="get">
           {% csrf_token %}
           {{form_B}}
-          <input type='submit' value="Plot Stock">
+          <input type="submit" id="the_input1">
         </form>
+
           <div class="container" style="height:40%; width:80%">
             <canvas class="main_chart" id="myChart"></canvas>
           </div>
@@ -33,65 +34,72 @@
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.5.0/jquery.marquee.min.js"></script>
-          <script type='text/javascript'>
+          <script name='runjs' type='text/javascript'>
             {% block jquery %}
-              var endpoint = 'getData'
-              var chart_labels = []
-              var chart_data = []
-              var chart_name = ""
+            var stockChart = null
+            function plotFxn(endpoint,chart_labels,chart_data,chart_name,myform){
               $.ajax({
                 method: "GET",
-                url: endpoint,
+                url: 'getData',
+                data:myform.serialize(),
                 success: function(data){
-                  console.log("success")
-                  console.log(data.dates)
+                  console.log(data)
                   chart_labels = data.dates
                   chart_data = data.values
                   chart_name = data.stock_name
-                  var myChart = document.getElementById('myChart').getContext('2d');
-
-                  let stockChart = new Chart(myChart, {
+                  Chart.defaults.global.defaultFontColor = 'white'
+                  canvas = document.getElementById('myChart');
+                  var myChart = canvas.getContext('2d');
+                  if (stockChart!=null){
+                    stockChart.destroy()
+                    console.log("I DESTROYED YOUR OLD CHART!")
+                  }
+                  stockChart = new Chart(myChart, {
                     type:'line',
-
                     data:{
                       labels:chart_labels,
                       datasets:[{
                         label:chart_name,
                         data:chart_data,
-                        backgroundColor:'green',
-                        pointRadius: 3,
+                        borderColor:'#32CD32',
+                        fill:false,
+                        pointRadius: 0,
                       }],
+                    },
+                    options:{
+                      responive: false,
+                      maintainAspectRatio: false,
+                      legend:{
+                        label:{
+                          fontColor:'white',
+                        },
+                      },
+                      //fill:false,
                     },
                   })
                 },
-                error: function(error_data){
-                  console.log("error")
-                  console.log(error_data);
-                }
-              })
-
-            Chart.defaults.global.defaultFontColor = 'white';
-            var myChart = document.getElementById('myChart').getContext('2d');
-
-            let stockChart = new Chart(myChart, {
-              type:'line',
-
-              data:{
-                labels:chart_labels,
-                datasets:[{
-                  label:'count',
-                  data:chart_data,
-                  backgroundColor:'green',
-                  pointRadius: 3,
-                }],
-              },
-              options:{
-                responive: false,
-                maintainAspectRatio: false,
-                //fill:false,
-              },
-
+              });
+            }
+            $('#plot-form').on('submit',function(event){
+              event.preventDefault();
+              var endpoint = 'getData'
+              var chart_labels = []
+              var chart_data = []
+              var chart_name = ""
+              var myform = $('#plot-form')
+              plotFxn(endpoint,chart_labels,chart_data,chart_name,myform)
             });
+
+
+            var endpoint = 'getData'
+            var chart_labels = []
+            var chart_data = []
+            var chart_name = ""
+            var myform = $('#plot-form')
+            plotFxn(endpoint,chart_labels,chart_data,chart_name,myform)
+
+
+
 
           {% endblock %}
           </script>
