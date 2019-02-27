@@ -19,12 +19,18 @@
         <form class="site-form" action="/stocks/addstocks" method="post">
           {% csrf_token %}
           {{form_A}}
-          <input type="submit" value="Add Stock">
+          <input type="submit" id="the_input0" value="Add Stock">
         </form>
+        <select id='selector' onChange="fxn_new(this);" name="Selector">
+          {% for stock in Stocks %}
+            <option value="{{stock.stock_symbol}}">{{stock.stock_symbol}}</option>
+          {% endfor %}
+        </select>
+        <button id="new_plot_btn" width="10px">Plote Stock</button>
         <form id="plot-form" class="site-form" method="get">
           {% csrf_token %}
           {{form_B}}
-          <input type="submit" id="the_input1">
+          <input type="submit" id="the_input1" value"Plote Stock">
         </form>
 
           <div class="container" style="height:40%; width:80%">
@@ -37,6 +43,59 @@
           <script name='runjs' type='text/javascript'>
             {% block jquery %}
             var stockChart = null
+            function fxn_new(sel){
+              event.preventDefault();
+              var endpoint = 'getData'
+              var chart_labels = []
+              var chart_data = []
+              var chart_name = ""
+              var symbol = sel.options[sel.selectedIndex].text
+              plotFxn2(endpoint,chart_labels,chart_data,chart_name,symbol)
+              alert(sel.options[sel.selectedIndex].text)
+            }
+            function plotFxn2(endpoint,chart_labels,chart_data,chart_name,symbol){
+              $.ajax({
+                method: "GET",
+                url: 'getData',
+                data:{symbol:symbol},
+                success: function(data){
+                  console.log(data)
+                  chart_labels = data.dates
+                  chart_data = data.values
+                  chart_name = symbol
+                  Chart.defaults.global.defaultFontColor = 'white'
+                  canvas = document.getElementById('myChart');
+                  var myChart = canvas.getContext('2d');
+                  if (stockChart!=null){
+                    stockChart.destroy()
+                    console.log("I DESTROYED YOUR OLD CHART!")
+                  }
+                  stockChart = new Chart(myChart, {
+                    type:'line',
+                    data:{
+                      labels:chart_labels,
+                      datasets:[{
+                        label:chart_name,
+                        data:chart_data,
+                        borderColor:'#32CD32',
+                        fill:false,
+                        pointRadius: 0,
+                      }],
+                    },
+                    options:{
+                      responive: false,
+                      maintainAspectRatio: false,
+                      legend:{
+                        label:{
+                          fontColor:'white',
+                        },
+                      },
+                      //fill:false,
+                    },
+                  })
+                },
+              });
+            }
             function plotFxn(endpoint,chart_labels,chart_data,chart_name,myform){
               $.ajax({
                 method: "GET",
@@ -89,7 +148,16 @@
               var myform = $('#plot-form')
               plotFxn(endpoint,chart_labels,chart_data,chart_name,myform)
             });
-
+            $('#new_plot_btn').on('click',function(event){
+              event.preventDefault();
+              var endpoint = 'getData'
+              var chart_labels = []
+              var chart_data = []
+              var chart_name = ""
+              var myform = $('#selector')
+              alert(document.getElementById("#selector"))
+              plotFxn(endpoint,chart_labels,chart_data,chart_name,myform)
+            });
 
             var endpoint = 'getData'
             var chart_labels = []
