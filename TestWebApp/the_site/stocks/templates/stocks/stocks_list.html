@@ -50,22 +50,22 @@
             {% block jquery %}
 
             canvas = document.getElementById('myChart');
+            var data_main = {
+                labels: ["0","1","2","3","4"],
+                datasets: [{
+                  label:"test",
+                  data:[1,2,3,4,5],
+                  borderColor:'#32CD32',
+                  fill:false,
+                  pointRadius: 0,
+                }]
+            };
             var myChart = canvas.getContext('2d');
-            var stockChart = createChart(myChart)
-            function createChart(myChart){
+            var stockChart = createChart(myChart,data_main)
+            function createChart(myChart,data_main){
               var cleanChart = new Chart(myChart, {
                 type:'line',
-
-                data:{
-                  labels:'',
-                  datasets:[{
-                    label:[],
-                    data:[],
-                    borderColor:'#32CD32',
-                    fill:false,
-                    pointRadius: 0,
-                  }],
-                },
+                data:data_main,
                 options:{
                   responive: false,
                   maintainAspectRatio: false,
@@ -75,7 +75,7 @@
                     },
                   },
                 },
-              })
+              });
               return cleanChart
             }
 
@@ -114,35 +114,33 @@
                   if (stockChart!=null && append == false){
                     stockChart.destroy()
                     console.log("I DESTROYED YOUR OLD CHART!")
-                    stockChart = createChart(myChart)
+                    stockChart = createChart(myChart,data_main)
                   }
                   if (append){
-                    newDataSet = {
-                      labels:chart_labels,
-                        datasets:{
-                          label:chart_name,
-                          data:chart_data,
-                          borderColor:'#32CD32',
-                          fill:false,
-                          pointRadius: 0,
-                        },
-                      }
 
-                      stockChart.data = newDataSet;
+                      var new_data = {
+                            label:chart_name,
+                            data:chart_data,
+                            borderColor:'#'+(Math.random()*0xFFFFFF<<0).toString(16),
+                            fill:false,
+                            pointRadius: 0,
+                      };
+
+                      data_main.datasets.push(new_data);
+                      stockChart.update();
                       console.log(stockChart.data)
                   }
                   else{
+                    var new_data = {
+                          label:chart_name,
+                          data:chart_data,
+                          borderColor:'#'+(Math.random()*0xFFFFFF<<0).toString(16),
+                          fill:false,
+                          pointRadius: 0,
+                    };
+                    data_main.labels = chart_labels;
+                    data_main.datasets = [new_data];
 
-                    stockChart.data = {
-                      labels:chart_labels,
-                      datasets:[{
-                        label:chart_name,
-                        data:chart_data,
-                        borderColor:'#32CD32',
-                        fill:false,
-                        pointRadius: 0,
-                      }],
-                    },
                     stockChart.update();
                   }
                 },
