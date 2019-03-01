@@ -4,8 +4,19 @@ from django.contrib.auth.forms import UserCreationForm
 from . import forms
 from django.http import JsonResponse
 from .STOCK_DATA_GRAB import grab_stock_points
-import datetime, timestring, operator
+import datetime, timestring, operator, pyrebase, json
 # Create your views here.
+config = {
+    'apiKey': "AIzaSyDPFA_o-J2dVwaRuEKaKmR9vMpBnpdXZIQ",
+    'authDomain': "nia-webapp-project.firebaseapp.com",
+    'databaseURL': "https://nia-webapp-project.firebaseio.com",
+    'projectId': "nia-webapp-project",
+    'storageBucket': "nia-webapp-project.appspot.com",
+    'messagingSenderId': "385434752039"
+}
+firebase = pyrebase.initialize_app(config)
+firebase_auth = firebase.auth()
+firebase_db = firebase.database()
 
 def stocks_list(request):
     #sorts the objects in the database
@@ -21,6 +32,18 @@ def stocks_list(request):
         print("running in stocks_list else")
         form_B = forms.goForIT()
     stocks = Stock.objects.all().order_by('stock_name')
+    arr = list(stocks.values())
+    for stock in arr:
+        print(stock)
+        for s in stock:
+            #print(str(stock[s]))
+            #print(type(stock[s]))
+            if type(stock[s]) == datetime.datetime:
+                date = timestring.Date(str(stock[s])).date
+                date = datetime.datetime.strftime(date,'%m-%d-%y')
+                stock[s] = date
+        firebase_db.child('Stocks').child(stock['id']).set(stock)
+    #firebase_db.child('Stocks').set(json.dumps(stocks.values()))
     return render(request,"stocks/stocks_list.html", {'Stocks': stocks,'form_A':form_A,'form_B':form_B})
 
 def AddStock(request):
