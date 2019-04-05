@@ -11,8 +11,8 @@ import httplib2, requests, json
 
 from build import projenv
 
-
-
+# Commenting before this function--the function works properly now
+# But the user must create a projenv.py file in the build folder
 def cse_standard():
 	cse_query_str = "INTC"
 
