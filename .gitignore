@@ -3,3 +3,6 @@ build/
 
 *.pyc
 *.tmp
+
+*.sublime-project
+*.sublime-workspace
