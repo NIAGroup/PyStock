@@ -7,36 +7,33 @@ __author__ = 'Lennard Streat'
 
 import pprint
 from googleapiclient.discovery import build
+import httplib2, requests, json
 
-import httplib2
-import json
+from build import projenv
 
 
-def main():
+
+def cse_standard():
+	cse_query_str = "INTC"
+
 	proxy_info = httplib2.ProxyInfo(proxy_type=httplib2.socks.PROXY_TYPE_HTTP,
-		#proxy_host=xx.xx.xxx.xx,
-		#proxy_port=xxxx)
-	
+		proxy_host=projenv.glob_proxy_host,
+		proxy_port=projenv.glob_proxy_port)
 
 	httpreq = httplib2.Http(proxy_info = proxy_info)
-	
-	resp, content = httpreq.request("http://www.google.com/", "GET")
-	print(type(resp))
-	print(type(content))
-	print(resp.keys())
-	print(resp["date"])
-	#print(content.decode('ISO-8859-1'))
 
-	#parsed = json.loads(content)
+	service = build(serviceName='customsearch',
+		version='v1',
+		developerKey=projenv.cse_api_key,
+		http=httpreq)
 
-	"""
-	service = build('customsearch', 'v1', developerKey="AIzaSyDRRpR3GS1F1_jKNNM9HCNd2wJQyPG3oN0")
-
-	res = service.cse().list(
-		q='lectures',
-		cx='017576662512468239146:omuauf_lfve',
+	resp = service.cse().list(
+		q=cse_query_str,
+		cx=projenv.cse_eng_id,
 		).execute()
-	"""
+
+	pprint.pprint(resp)
+
 
 if __name__ == '__main__':
-	main()
+	cse_standard()
